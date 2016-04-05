@@ -413,7 +413,7 @@ ul.social-list li a.vimeo:hover {
 }
 .navbar-brand {
   position: relative;
-  padding: 22px 0;
+  padding: 12px 0;
   margin: 0!important;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;

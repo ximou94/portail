@@ -1,0 +1,89 @@
+/*You can add your won color also */
+img.m-left {
+  float: left;
+  width: 144px;
+  height: 144px;
+  margin: 0px 25px 40px 0px;
+}
+.panel-default {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #f1f1f1;
+}
+.panel-default .panel-heading {
+  padding: 0;
+  background-color: transparent;
+}
+.panel-default .panel-heading .panel-title {
+  font-size: 13px;
+  font-weight: 600;
+}
+.panel-default .panel-heading .panel-title a {
+  position: relative;
+  display: block;
+  padding: 6px 12px;
+  background-color: #fff;
+  box-shadow: none;
+  outline: none;
+  -o-box-shadow: none;
+  text-decoration: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.panel-default .panel-heading a.collapsed {
+  color: #444;
+}
+.panel-title a .control-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -11px;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.panel-title a.collapsed .control-icon {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+.panel-title a i {
+  font-size: 1.2em;
+  padding-right: 5px;
+}
+.panel-body {
+  padding: 4px 15px 10px 15px;
+}
+.skill p {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.progress {
+  overflow: visible;
+  height: 22px;
+  margin-bottom: 20px;
+  background-color: #FAFAFA;
+  border: 1px solid #E2E2E2;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.progress-bar {
+  float: left;
+  height: 100%;
+  font-size: 12px;
+  color: #ffffff;
+  border: 1px solid #fff;
+  text-align: center;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  position: relative;
+}

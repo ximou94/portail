@@ -1,12 +1,13 @@
 <?php include_once"layouts/header.phtml"; ?>
 <?php include_once"layouts/topBar.phtml"; ?>
-<?php include_once"layouts/nav.phtml"; ?><!doctype html>
+<?php include_once"layouts/nav.phtml"; ?>
+<!doctype html>
     <!-- Start Page Banner -->
     <div class="page-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xl-6">
-            <h2>About Us</h2>
+            <h2>EDP Santé</h2>
           </div>
           <div class="col-md-6 col-sm-6 col-xl-6">
             <div class="breadcrumbs">
@@ -48,10 +49,30 @@
               </h4>
               <img class="m-left" src="assets/img/avatar.png" alt="">
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                Depuis 2011, grâce à ses opérations de croissance externe, le Groupe EDP Sciences (maison
+
+d’édition scientifique internationale, créée en 1920) conforte sa position d’acteur
+
+incontournable du secteur scientifique et crée EDP Santé, sa filiale médicale. EDP Santé
+
+bénéficie du savoir-faire unique de ce groupe international, de ses avancées technologiques et
+
+peut ainsi apporter aux acteurs de la santé une réponse à leurs besoins de communication et
+
+d’information.
               </p>
               <p>
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Sed ut perspiciatis unde omnis iste natus error sit volup accusantium. Lorem ipsum dolor sit amet, consectetur.
+                EDP Santé, prend une place de choix dans le paysage médical international en fournissant des
+
+  informations claires et actualisées ainsi que des outils pratiques et utiles. Son activité se
+
+  concentre sur la publication et la diffusion d’une vingtaine de magazines professionnels
+
+  diffusés sur 13 zones géographiques dans le monde, d’une trentaine de sites internet pour
+
+  promouvoir l’information médicale et sur la mise en place d’événements pour toujours plus de
+
+  proximité avec les professionnels de santé.
               </p>
             </div>
           </div>

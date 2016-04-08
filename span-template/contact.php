@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-6">
-              <h2>Contacts Us</h2>
+              <h2>Contactez-nous</h2>
             </div>
             <div class="col-md-6 col-sm-6">
               <div class="breadcrumbs">
@@ -27,37 +27,37 @@
             <div class="col-md-6">
               <h2 class="title1 upper">
                 <i class="fa fa-envelope-o"></i>
-                Get On Touch
+
               </h2>
               <!-- Form -->
               <!-- Start Contact Form -->
               <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
                 <div class="form-group">
                   <div class="controls">
-                    <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                    <input type="text" id="name" class="form-control" placeholder="Nom" required data-error="Veuillez renseigner votre nom">
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="controls">
-                    <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                    <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Veuillez renseigner votre email">
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="controls">
-                    <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                    <input type="text" id="msg_subject" class="form-control" placeholder="Sujet" required data-error="Veuillez renseigner un sujet">
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="controls">
-                    <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                    <textarea id="message" rows="7" placeholder="Message" class="form-control" required data-error="Veuillez renseigner un message"></textarea>
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
 
-                <button type="submit" id="submit" class="btn btn-effect"></i> Send Message</button>
+                <button type="submit" id="submit" class="btn btn-effect"></i> Envoyer</button>
                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                 <div class="clearfix"></div>
 
@@ -75,9 +75,8 @@
                     <i class="fa fa-map-marker icon-radius"></i>
                   </div>
                   <div class="info">
-                    <h3>Address</h3>
-                    <span class="detail">Main Office: NO.22-23 Street Name- City,Country</span>
-                    <span class="datail">Customer Center: NO.130-45 Streen Name- City, Country</span>
+                    <h3>Adresse</h3>
+                    <span class="detail">109 avenue Aristide Briand – CS 90042 – 92541 Montrouge cedex</span>
                   </div>
                 </div>
                 <div class="contact-datails">
@@ -85,9 +84,8 @@
                     <i class="fa fa-phone icon-radius"></i>
                   </div>
                   <div class="info">
-                    <h3>Phone Numbers</h3>
-                    <span class="detail">Main Office: +880 123 456 789</span>
-                    <span class="datail">Customer Supprort: +880 123 456 789 </span>
+                    <h3>Téléphone</h3>
+                    <span class="detail">01.41.17.73.90</span>
                   </div>
                 </div>
                 <div class="contact-datails">
@@ -120,7 +118,7 @@
       <!-- Start Map Section -->
       <section id="map">
         <div class="title-banner">
-            <h2 class="upper text-center">Our Location </h2>
+            <h2 class="upper text-center">Notre localisation</h2>
         </div>
       </section>
       <!-- Conatct Section -->
@@ -364,8 +362,8 @@
     <!-- Google Maps JS Only for Contact Pages -->
     <script type="text/javascript">
     var map;
-    var plain = new google.maps.LatLng(-33.885429, 151.210081);
-    var mapCoordinates = new google.maps.LatLng(-33.885429, 151.210081);
+    var plain = new google.maps.LatLng(48.812841, 2.326250);
+    var mapCoordinates = new google.maps.LatLng(48.812841, 2.326250);
 
 
     var markers = [];

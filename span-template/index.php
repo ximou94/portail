@@ -65,30 +65,31 @@
               <div class="col-md-6">
                 <!-- Start Big Heading -->
                 <div class="big-title">
-                  <h1><strong>More</strong> About Us</h1>
+                  <h1>EDP Santé</h1>
                   <p class="title-desc">Some Words About Our Company</p>
                 </div>
                 <!-- End Big Heading -->
                 <!-- Some Text -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Depuis 2011, grâce à ses opérations de croissance externe, le Groupe EDP Sciences (maison d’édition scientifique internationale, créée en 1920) conforte sa position d’acteur incontournable du secteur scientifique et crée EDP Santé, sa filiale médicale. EDP Santé bénéficie du savoir-faire unique de ce groupe international, de ses avancées technologiques et
+                peut ainsi apporter aux acteurs de la santé une réponse à leurs besoins de communication et d’information.</p>
+
+              <!--  <p>EDP Santé, prend une place de choix dans le paysage médical international en fournissant des informations claires et actualisées ainsi que des outils pratiques et utiles. Son activité se concentre sur la publication et la diffusion d’une vingtaine de magazines professionnels diffusés sur 13 zones géographiques dans le monde, d’une trentaine de sites internet pour promouvoir l’information médicale et sur la mise en place d’événements pour toujours plus de proximité avec les professionnels de santé.</p>
                 <!-- Divider -->
                 <div class="hr1" style="margin-bottom:14px;"></div>
                 <!-- Start Icons Lists -->
                 <div class="row">
                   <div class="col-md-6">
+                    <p>EDP Santé se divise en 5 pôles majeurs :</p>
                     <ul class="icons-list">
-                      <li><i class="fa fa-check-circle"></i> Duis aute irure dolor in reprehenderit.</li>
-                      <li><i class="fa fa-check-circle"></i> Lorem Ipsum is simply dummy text.</li>
-                      <li><i class="fa fa-check-circle"></i> Excepteur sint occaecat cupidatat.</li>
-                      <li><i class="fa fa-check-circle"></i> Sed ut perspiciatis unde omnis.</li>
+                      <li><i class="fa fa-check-circle"></i> L&#39;audiologie</li>
+                      <li><i class="fa fa-check-circle"></i> La biologie</li>
                     </ul>
                   </div>
                   <div class="col-md-6">
                     <ul class="icons-list">
-                      <li><i class="fa fa-check-circle"></i> Duis aute irure dolor in reprehenderit.</li>
-                      <li><i class="fa fa-check-circle"></i> Lorem Ipsum is simply dummy text.</li>
-                      <li><i class="fa fa-check-circle"></i> Excepteur sint occaecat cupidatat.</li>
-                      <li><i class="fa fa-check-circle"></i> Sed ut perspiciatis unde omnis.</li>
+                      <li><i class="fa fa-check-circle"></i> Le dentaire</li>
+                      <li><i class="fa fa-check-circle"></i> La nutrition</li>
+                      <li><i class="fa fa-check-circle"></i> La pharmacie</li>
                     </ul>
                   </div>
                 </div>
@@ -114,64 +115,65 @@
           <div class="row">
             <!-- Start Heading -->
             <div class="heading">
-              <div class="big-title">This is Our Latest Work</div>
+              <div class="big-title">Nos magazines</div>
               <div class="filter-right">
                 <!-- Portfolio Filter -->
                 <ul class="controls">
-                  <li class="filter active" data-filter="all">All</li>
-                  <li class="filter" data-filter=".design">Interior Design</li>
-                  <li class="filter" data-filter=".architecture">architecture</li>
-                  <li class="filter" data-filter=".paitning">Paitning</li>
-                  <li class="filter" data-filter=".appartment">Appartment</li>
+                  <li class="filter active" data-filter="all">Tous</li>
+                  <li class="filter" data-filter=".audiologie">Audiologie</li>
+                  <li class="filter" data-filter=".biologie">Biologie</li>
+                  <li class="filter" data-filter=".dentaire">Dentaire</li>
+                  <li class="filter" data-filter=".nutrition">Nutrition</li>
+                  <li class="filter" data-filter=".pharmacie">Pharmacie</li>
                 </ul>
               </div>
             </div>
             <!-- End Heading -->
             <!-- Portfolio Recent Projects -->
             <div id="portfolio-list">
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design paitning">
+              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design audiologie">
                 <div class="portfolio-item">
                   <div class="portfolio-img">
-                    <img src="assets/img/portfolio/img-1.jpg" alt="" />
+                    <img src="assets/img/portfolio/audio-infos.jpg" alt="" />
                     <div class="overlay">
-                      <a href="assets/img/portfolio/img-1.jpg" class="lightbox"><i class="more icon-plus"></i></a>
+                      <a href="assets/img/portfolio/audio-infos.jpg" class="lightbox"><i class="more icon-plus"></i></a>
                     </div>
                   </div>
                   <div class="portfolio-item-content">
                     <h3 class="header">
-                      Town winter 2015
+                      Audio infos
                     </h3>
                     <p class="body">
-                      web develpment, design
+                      Site d'information 100% dédié à l'audiologie
                     </p>
                     <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-image"></i></a>
+                      <a href="audio-infos.php"><i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design architecture">
+              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design biologie">
                 <div class="portfolio-item">
                   <div class="portfolio-img">
-                    <img src="assets/img/portfolio/img-2.jpg" alt="" />
+                    <img src="assets/img/portfolio/biologiste-infos.jpg" alt="" />
                     <div class="overlay">
-                      <a href="assets/img/portfolio/img-2.jpg" class="lightbox"><i class="icon-plus more"></i></a>
+                      <a href="assets/img/portfolio/biologiste-infos.jpg" class="lightbox"><i class="icon-plus more"></i></a>
                     </div>
                   </div>
                   <div class="portfolio-item-content">
                     <h3 class="header">
-                      Quarterly Musashino
+                      Biologiste infos
                     </h3>
                     <p class="body">
-                      web develpment, design
+                      La référence professionnelle de la Biologie Médicale
                     </p>
                     <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-image"></i></a>
+                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design appartment">
+              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design dentaire">
                 <div class="portfolio-item">
                   <div class="portfolio-img">
                     <img src="assets/img/portfolio/img-3.jpg" alt="" />
@@ -181,18 +183,18 @@
                   </div>
                   <div class="portfolio-item-content">
                     <h3 class="header">
-                      Mainichi April 2015
+                      Indépendentaire
                     </h3>
                     <p class="body">
-                      web develpment, design
+                      La référence du monde dentaire
                     </p>
                     <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-image"></i></a>
+                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix paitning">
+              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix nutrition">
                 <div class="portfolio-item">
                   <div class="portfolio-img">
                     <img src="assets/img/portfolio/img-4.jpg" alt="" />
@@ -202,18 +204,18 @@
                   </div>
                   <div class="portfolio-item-content">
                     <h3 class="header">
-                      Shitamachi Rocket
+                      Nutrition infos
                     </h3>
                     <p class="body">
-                      web develpment, design
+                      La référence du monde de la Nutrition
                     </p>
                     <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-image"></i></a>
+                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design paitning">
+              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design pharmacie">
                 <div class="portfolio-item">
                   <div class="portfolio-img">
                     <img src="assets/img/portfolio/img-5.jpg" alt="" />
@@ -223,13 +225,13 @@
                   </div>
                   <div class="portfolio-item-content">
                     <h3 class="header">
-                      Majesty express
+                      Profession pharmacien
                     </h3>
                     <p class="body">
                       web develpment, design
                     </p>
                     <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-image"></i></a>
+                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -250,7 +252,7 @@
                       web develpment, design
                     </p>
                     <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-image"></i></a>
+                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>

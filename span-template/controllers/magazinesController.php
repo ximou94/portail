@@ -19,7 +19,7 @@ public function getAll()
 }
   public function getName($number)
   {
-    return $name = $this->_issues->{'issues'}[$number]->{'name'};
+    return $name = $this->_issues->{'poles'}[$number]->{'name'};
   }
 
   public function getUrl()

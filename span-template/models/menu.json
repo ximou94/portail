@@ -5,53 +5,51 @@
       "navLinkLevel1" :[
         {
           "name":"Audio infos Allemagne",
-          "link":"#",
-          "img" : "assets/img/portfolio/audio-infos.jpg",
-          "BaseLine":"Site d'information 100% dédié à l'audiologie"
+          "link":"single-project.php?audio-infos-allemagne"
         },
         {
           "name":"Audio infos Amérique Latine",
-          "link":"#"
+          "link":"single-project.php?audio-infos-amerique-latine"
         },
         {
           "name":"audio infos France",
-          "link":"#"
+          "link":"single-project.php?audio-infos"
         },
         {
           "name":"Audio infos Espagne",
-          "link":"#"
+          "link":"single-project.php?audio-infos-espagne"
         },
         {
           "name":"Audio infos Russie",
-          "link":"#"
+          "link":"single-project.php?audio-infos-russie"
         },
         {
           "name":"Audio infos UK",
-          "link":"#"
+          "link":"single-project.php?audio-infos-uk"
         },
         {
           "name":"Audiology infos Brésil",
-          "link":"#"
+          "link":"single-project.php?audio-infos-bresil"
         },
         {
           "name":"Audiology infos France",
-          "link":"#"
+          "link":"single-project.php?audiologie-france"
         },
         {
           "name":"Audiology infos Italie",
-          "link":"#"
+          "link":"single-project.php?audiologie-italie"
         },
         {
           "name":"Audiology infos Pays-Bas",
-          "link":"#"
+          "link":"single-project.php?audiologie-pays-bas"
         },
         {
           "name":"Audiology Worldnews",
-          "link":"#"
+          "link":"single-project.php?audiology-worldnews"
         },
         {
           "name":"Audition infos",
-          "link":"#"
+          "link":"single-project.php?audition-infos"
         }
       ]
     },
@@ -60,7 +58,7 @@
       "navLinkLevel1":[
         {
           "name": "Biologiste infos",
-          "link": "#"
+          "link": "single-project.php?biologiste-infos"
         }
       ]
     },
@@ -69,19 +67,19 @@
       "navLinkLevel1":[
         {
           "name" :"Actualités Odonto Stomatologiques",
-          "link": "#"
+          "link": "single-project.php?aos"
         },
         {
           "name":"Dentoscope",
-          "link":"#"
+          "link":"single-project.php?dentoscope"
         },
         {
           "name":"Indépendentaire",
-          "link":"#"
+          "link":"single-project.php?independentaire"
         },
         {
           "name":"Orthophile",
-          "link":"#"
+          "link":"single-project.php?orthophile"
         }
       ]
     },
@@ -90,11 +88,11 @@
       "navLinkLevel1":[
         {
           "name" :"Nutrition infos",
-          "link": "#"
+          "link": "single-project.php?nutrition-infos"
         },
         {
           "name":"Nutrition infos Collectivités",
-          "link":"#"
+          "link":"single-project.php?nutrition-infos-collectivites"
         }
       ]
     },
@@ -103,15 +101,15 @@
         "navLinkLevel1":[
           {
             "name" :"L'Entreprise Officinale",
-            "link": "/entreprise-officinale"
+            "link": "single-project.php?entreprise-officinale"
           },
           {
             "name":"L’Essentiel de l’Anesthésie-Réanimation",
-            "link":"#"
+            "link":"single-project.php?ear"
           },
           {
             "name":"Profession Pharmacien",
-            "link":"#"
+            "link":"single-project.php?profession-pharmacien"
           }
         ]
       }

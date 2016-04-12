@@ -1,6 +1,7 @@
 <?php
 include_once "config.php";
-include_once ROOT."\controllers\menuController.php";
+include_once ROOT.DS."controllers".DS."menuController.php";
+include_once ROOT.DS."controllers".DS."magazinesController.php";
 $nav = new menuController();
 $sector = $nav->getNavlevel0();
 //var_dump($sector);
@@ -56,20 +57,18 @@ $page = explode('/', $url);
                     <?php foreach ($sector as $key => $value):?>
                     <li>
                       <a href="#">
-                        <?php echo $nav->getNavLevel0Name($i)?>
+                      <?php echo $nav->getNavLevel0Name($i)?>
                       </a>
                       <?php $magazine = $nav->getNavLevel1($i)?>
-                      <?php if (array_key_exists(1,$magazine)): ?>
                       <ul class="sup-dropdown">
                         <?php foreach ($magazine as $key => $value): ?>
                         <li>
-                          <a href="#">
+                          <a href="<?= $nav->getNavLevel1Link($i,$key)?>">
                             <?= $nav->getNavLevel1Name($i,$key)?>
                           </a>
                         </li>
                         <?php endforeach; ?>
                       </ul>
-                      <?php endif; ?>
                     </li>
                     <?php $i++; endforeach ?>
                   </ul>

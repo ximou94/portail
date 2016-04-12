@@ -1,6 +1,7 @@
   <?php include_once"layouts/header.phtml"; ?>
   <?php include_once"layouts/topBar.phtml"; ?>
   <?php include_once"layouts/nav.phtml"; ?>
+    <?php $issues = new  magazinesController();?>
     <!-- Start Content -->
     <div id="content">
       <div class="container">
@@ -27,10 +28,9 @@
               </div>
             </div>
             <!-- End Single Project Slider -->
-
             <!-- Start Project Content -->
             <div class="project-content col-md-4">
-              <h5 class="widget-title">Project Description</h5>
+              <h5 class="widget-title"><?= $issues->getName(0) ?></h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed facilisis purus. Donec interdum massa at ipsum vehicula tristique. Maecenas bibendum dictum tincidunt. Sed nec justo ac libero consequat tincidunt. Cras eget molestie justo.</p>
               <h5 class="widget-title">Project Details</h5>
               <ul>

@@ -1,7 +1,9 @@
   <?php include_once"layouts/header.phtml"; ?>
   <?php include_once"layouts/topBar.phtml"; ?>
   <?php include_once"layouts/nav.phtml"; ?>
-    <?php $issues = new  magazinesController();?>
+  <?php $issues = new  magazinesController();?>
+<?php $url =($_SERVER['REQUEST_URI']);
+$page = explode('?', $url); echo $page[1];var_dump($issues)?>  
     <!-- Start Content -->
     <div id="content">
       <div class="container">

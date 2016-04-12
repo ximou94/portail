@@ -1,32 +1,37 @@
 {
-    "issues":[
+    "poles":[
       {
-        "name":"Audio infos Allemagne",
-        "url":"audio-infos-allemagne",
-        "baseline":"",
-        "text":"",
-        "website":"",
-        "social":[
+        "name":"Audiology",
+        "magazines":[
           {
-            "name " : "twitter",
-            "url":""
+            "name":"Audio infos Allemagne",
+            "url":"audio-infos-allemagne",
+            "baseline":"",
+            "text":"",
+            "website":"",
+            "social":[
+              {
+                "name " : "twitter",
+                "url":""
+              },
+              {
+                "name":"facebook",
+                "url":""
+              }
+            ]
           },
           {
-            "name":"facebook",
-            "url":""
+            "name":"Audio infos Amérique Latine",
+            "url":"audio-infos-amerique-latine",
+            "baseline":""
+          },
+          {
+            "name":"Audio infos France",
+            "baseline":"Site d'information 100% dédié à l'audiologie",
+            "text":"Lancé en 1993, Audio Infos est le magazine de référence des audioprothésistes et de toute la filière. Depuis vingt ans, la revue reflète la profession, ses problématiques et enjeux, ses perspectives et accompagne son évolution. Audio Infos traite, chaque mois, tous les thèmes qui font le quotidien de cette profession : actualités professionnelles et technologiques, reportages, interviews, portraits, dossiers thématiques, comptes rendus de manifestations, articles scientifiques, veille technologique, communication, gestion et management. Des sujets à la fois techniques et marketing qui permettent à Audio Infos de répondre aux besoins d&#39;information d&#39;une profession à la croisée entre médical, technique et commercial.",
+            "website":"http://www.edp-audio.fr"
           }
         ]
-      },
-      {
-        "name":"Audio infos Amérique Latine",
-        "url":"audio-infos-amerique-latine",
-        "baseline":""
-      },
-      {
-        "name":"Audio infos France",
-        "baseline":"Site d'information 100% dédié à l'audiologie",
-        "text":"Lancé en 1993, Audio Infos est le magazine de référence des audioprothésistes et de toute la filière. Depuis vingt ans, la revue reflète la profession, ses problématiques et enjeux, ses perspectives et accompagne son évolution. Audio Infos traite, chaque mois, tous les thèmes qui font le quotidien de cette profession : actualités professionnelles et technologiques, reportages, interviews, portraits, dossiers thématiques, comptes rendus de manifestations, articles scientifiques, veille technologique, communication, gestion et management. Des sujets à la fois techniques et marketing qui permettent à Audio Infos de répondre aux besoins d&#39;information d&#39;une profession à la croisée entre médical, technique et commercial.",
-        "website":"http://www.edp-audio.fr"
       }
     ]
 }

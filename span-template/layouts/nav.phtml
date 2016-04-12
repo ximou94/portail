@@ -54,7 +54,7 @@ $page = explode('/', $url);
                   </a>
                   <ul class="dropdown">
                     <?php $i = 0;?>
-                    <?php foreach ($sector as $key => $value):?>
+                    <?php foreach ($sector as $pole => $value):?>
                     <li>
                       <a href="#">
                       <?php echo $nav->getNavLevel0Name($i)?>
@@ -63,7 +63,7 @@ $page = explode('/', $url);
                       <ul class="sup-dropdown">
                         <?php foreach ($magazine as $key => $value): ?>
                         <li>
-                          <a href="<?= $nav->getNavLevel1Link($i,$key)?>">
+                          <a href="<?= $nav->getNavLevel1Link($i,$key).'&pole='.$pole.'&position='.$key?>">
                             <?= $nav->getNavLevel1Name($i,$key)?>
                           </a>
                         </li>

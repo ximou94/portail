@@ -1,4 +1,9 @@
 <?php
+include_once "config.php";
+include_once ROOT."\controllers\menuController.php";
+$nav = new menuController();
+$sector = $nav->getNavlevel0();
+//var_dump($sector);
 $url =($_SERVER['REQUEST_URI']);
 $page = explode('/', $url);
  ?>
@@ -43,61 +48,31 @@ $page = explode('/', $url);
                   </a>
                 </li>
                 <li>
-                  <a href="about.html">
+                  <a href="#">
                     Nos magazines
                   </a>
                   <ul class="dropdown">
+                    <?php $i = 0;?>
+                    <?php foreach ($sector as $key => $value):?>
                     <li>
                       <a href="#">
-                        Audiologie
+                        <?php echo $nav->getNavLevel0Name($i)?>
                       </a>
+                      <?php $magazine = $nav->getNavLevel1($i)?>
+                      <?php if (array_key_exists(1,$magazine)): ?>
                       <ul class="sup-dropdown">
+                        <?php foreach ($magazine as $key => $value): ?>
                         <li>
-                          <a href="audio-infos.php">
-                            Audio infos
+                          <a href="#">
+                            <?= $nav->getNavLevel1Name($i,$key)?>
                           </a>
                         </li>
-                        <li>
-                          <a href="audiology.php">
-                            Audiology infos
-                          </a>
-                        </li>
+                        <?php endforeach; ?>
                       </ul>
+                      <?php endif; ?>
                     </li>
-                    <li>
-                      <a href="services.html">
-                        Biologie
-                      </a>
-                    </li>
-                    <li>
-                      <a href="team.html">
-                        Dentaire
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Nutrition
-                      </a>
-                      <ul class="sup-dropdown">
-                        <li>
-                          <a href="audio-infos.html">
-                            Nutrition infos
-                          </a>
-                        </li>
-                        <li>
-                          <a href="audio-infos.html">
-                            Nutrition infos collectivités
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="left-sidebar.html">
-                        Pharmacie
-                      </a>
-                    </li>
+                    <?php $i++; endforeach ?>
                   </ul>
-                </li>
                 <li>
                   <?= ($page[3] == "contact.php") ?  "<a href='contact.php' class='active'>" :  "<a href='contact.php'>";?>
                   Contact

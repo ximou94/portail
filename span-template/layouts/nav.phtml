@@ -2,7 +2,7 @@
 include_once "config.php";
 include_once ROOT.DS."controllers".DS."menuController.php";
 include_once ROOT.DS."controllers".DS."magazinesController.php";
-$nav = new menuController();
+$nav = new magazinesController();
 $sector = $nav->getNavlevel0();
 //var_dump($sector);
 $url =($_SERVER['REQUEST_URI']);
@@ -63,7 +63,7 @@ $page = explode('/', $url);
                       <ul class="sup-dropdown">
                         <?php foreach ($magazine as $key => $value): ?>
                         <li>
-                          <a href="<?= $nav->getNavLevel1Link($i,$key).'&pole='.$pole.'&position='.$key?>">
+                          <a href="single-project.php?pole=<?=$pole?>&position=<?=$key?>">
                             <?= $nav->getNavLevel1Name($i,$key)?>
                           </a>
                         </li>

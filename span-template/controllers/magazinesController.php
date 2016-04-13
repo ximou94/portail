@@ -1,6 +1,6 @@
 <?php
 /**
- * j
+ *
  */
 class magazinesController
 {
@@ -26,5 +26,38 @@ public function getAll()
   {
     return $name = $this->_issues->{'isuues'}->{'url'};
   }
+
+  public function getAllPoles(){
+    return $name = $this->_issues->{'poles'};
+  }
+
+  public function getNavlevel0()
+  {
+    return $name = $this->_issues->{'poles'};
+  }
+
+  public function getNavLevel0Name($number)
+  {
+    return $name = $this->_issues->{'poles'}[$number]->{'name'};
+  }
+
+  public function getNavLevel1($number)
+  {
+    return  $name = $this->_issues->{'poles'}[$number]->{'magazines'};
+  }
+  public function getNavLevel1Name($number,$number2)
+  {
+    return $name = $this->_issues->{'poles'}[$number]->{'magazines'}[$number2]->{'name'};
+  }
+
+  public function getNavLevel1Link($number,$number2)
+  {
+    return $name = $this->_issues->{'poles'}[$number]->{'magazines'}[$number2]->{'link'};
+  }
+
+  public function getMagazineInfos($pole,$magazine){
+    return $name = $this->_issues->{'poles'}[$pole]->{'magazines'}[$magazine];
+  }
+
 }
  ?>

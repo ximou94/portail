@@ -2,8 +2,9 @@
   <?php include_once"layouts/topBar.phtml"; ?>
   <?php include_once"layouts/nav.phtml"; ?>
   <?php $issues = new  magazinesController();?>
-<?php $url =($_SERVER['REQUEST_URI']);
-$page = explode('?', $url); echo $page[1];var_dump($issues)?>  
+<?php $url =($_SERVER['REQUEST_URI']); ?>
+<?php $pole = $_GET['pole']; $magazine = $_GET['position'] ?>
+<?php $page = explode('?', $url); ?>
     <!-- Start Content -->
     <div id="content">
       <div class="container">
@@ -30,10 +31,11 @@ $page = explode('?', $url); echo $page[1];var_dump($issues)?>
               </div>
             </div>
             <!-- End Single Project Slider -->
+            <?php $issue = $issues->getMagazineInfos($pole,$magazine) ?>
             <!-- Start Project Content -->
             <div class="project-content col-md-4">
-              <h5 class="widget-title"><?= $issues->getName(0) ?></h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed facilisis purus. Donec interdum massa at ipsum vehicula tristique. Maecenas bibendum dictum tincidunt. Sed nec justo ac libero consequat tincidunt. Cras eget molestie justo.</p>
+              <h5 class="widget-title"><?= $issue->name ?></h5>
+              <p><?= $issue->text ?></p>
               <h5 class="widget-title">Project Details</h5>
               <ul>
                 <li><strong>Client:</strong> Graygrids</li>
@@ -43,10 +45,11 @@ $page = explode('?', $url); echo $page[1];var_dump($issues)?>
               <div class="share">
                 <div class="social-link">
                   <span>Share This article</span>
-                  <a class="twitter" target="_blank" data-original-title="twitter" href="#" data-toggle="tooltip" data-placement="top"><i class="fa fa-twitter"></i></a>
-                  <a class="facebook" target="_blank" data-original-title="facebook" href="#" data-toggle="tooltip" data-placement="top"><i class="fa fa-facebook"></i></a>
-                  <a class="google" target="_blank" data-original-title="google-plus" href="#" data-toggle="tooltip" data-placement="top"><i class="fa fa-google-plus"></i></a>
-                  <a class="linkedin" target="_blank" data-original-title="linkedin" href="#" data-toggle="tooltip" data-placement="top"><i class="fa fa-linkedin"></i></a>
+                  <?php foreach ($issue->social as $key => $value):?>
+                    <?php if (isset($value->name)) {?>
+                      <a class="<?= $value->name ?>" target="_blank" data-original-title="<?= $value->name ?>" href="<?= $value->url?>" data-toggle="tooltip" data-placement="top"><i class="fa fa-<?= $value->name?>"></i></a>
+                    <?php } ?>
+                  <?php endforeach ?>
                 </div>
               </div>
             </div>

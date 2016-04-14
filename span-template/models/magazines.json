@@ -1,7 +1,7 @@
 {
     "poles":[
       {
-        "name":"Audiology",
+        "name":"Audiologie",
         "magazines":[
           {
             "name":"Audio infos Allemagne",
@@ -9,7 +9,8 @@
             "baseline":"",
             "text":"",
             "link":"single-project.php",
-            "website":"",
+            "website":"www.audio-infos.de",
+            "abonnement":"abos.edpsante.com/audio-infos-deutschland.htm",
             "social":[
               {
                 "name " : "twitter",
@@ -26,14 +27,41 @@
             "url":"audio-infos-amerique-latine",
             "baseline":"",
             "text":"",
-            "link":""
+            "link":"",
+            "website":"www.audioenportada.com/america-latina",
+            "flipbook":"",
+            "social":[
+              {
+                "name":"twitter",
+                "url":"https://twitter.com/Audioenportada"
+              },
+              {
+                "name":"linkedin",
+                "url":"https://www.linkedin.com/grps/Audioenportada-8186515/about"
+              }
+            ]
           },
           {
             "name":"Audio infos France",
             "baseline":"Site d'information 100% dédié à l'audiologie",
-            "text":"Lancé en 1993, <em>Audio Infos</em> est le magazine de référence des audioprothésistes et de toute la filière. Depuis vingt ans, la revue reflète la profession, ses problématiques et enjeux, ses perspectives et accompagne son évolution. Audio Infos traite, chaque mois, tous les thèmes qui font le quotidien de cette profession : actualités professionnelles et technologiques, reportages, interviews, portraits, dossiers thématiques, comptes rendus de manifestations, articles scientifiques, veille technologique, communication, gestion et management. Des sujets à la fois techniques et marketing qui permettent à Audio Infos de répondre aux besoins d&#39;information d&#39;une profession à la croisée entre médical, technique et commercial.",
+            "text":"Lancé en 1993, <em>Audio Infos</em> est le magazine de référence des audioprothésistes et de toute la filière. Depuis vingt ans, la revue reflète la profession, ses problématiques et enjeux, ses perspectives et accompagne son évolution. Audio Infos traite, chaque mois, tous les thèmes qui font le quotidien de cette profession : actualités professionnelles et technologiques, reportages, interviews, portraits, dossiers thématiques, comptes rendus de manifestations, articles scientifiques, veille technologique, communication, gestion et management. Des sujets à la fois techniques et marketing qui permettent à Audio Infos de répondre aux besoins d'information d'une profession à la croisée entre médical, technique et commercial.",
             "link":"",
-            "website":"http://www.edp-audio.fr"
+            "website":"www.edp-audio.fr",
+            "abonnement":"abos.edpsante.com/audio-infos-france.htm",
+            "social":[
+            {
+              "name":"twitter",
+              "url":"https://twitter.com/audio_infos"
+            },
+            {
+              "name":"youtube",
+              "url":"https://www.youtube.com/channel/UCoBW1Ae-d9xoWZiasDq0YLw"
+            },
+            {
+              "name":"google-plus",
+              "url":"https://plus.google.com/103510988204477340688"
+            }
+          ]
           },
           {
             "name":"Audio infos Espagne",
@@ -41,19 +69,16 @@
             "baseline":"",
             "text":"",
             "link":"",
-            "website":"",
+            "website":"www.audioenportada.com/espana",
+            "abonnement":"abos.edpsante.com/audio-infos-espana.htm",
             "social":[
               {
-                "name ":"twitter",
-                "url":"https://twitter.com/audio_infos"
+                "name":"twitter",
+                "url":"https://twitter.com/Audioenportada"
               },
               {
-                "name":"youtube",
-                "url":"https://www.youtube.com/channel/UCoBW1Ae-d9xoWZiasDq0YLw"
-              },
-              {
-                "name":"google-plus",
-                "url":"https://www.youtube.com/channel/UCoBW1Ae-d9xoWZiasDq0YLw"
+                "name":"linkedin",
+                "url":"https://www.linkedin.com/grps/Audioenportada-8186515/about"
               }
             ]
           },
@@ -63,15 +88,12 @@
             "baseline":"",
             "text":"",
             "link":"",
-            "website":"",
+            "website":"www.audiology-worldnews.com",
+            "flipbook":"",
             "social":[
               {
-                "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
+                "name":"twitter",
+                "url":"https://twitter.com/AudioWorldnews"
               }
             ]
           },
@@ -81,15 +103,12 @@
             "baseline":"",
             "text":"",
             "link":"",
-            "website":"",
+            "website":"www.audiology-worldnews.com",
+            "abonnement":"abos.edpsante.com/audio-infos-uk.htm",
             "social":[
               {
-                "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
+                "name":"twitter",
+                "url":"https://twitter.com/AudioWorldnews"
               }
             ]
           },
@@ -99,7 +118,8 @@
             "baseline":"",
             "text":"",
             "link":"",
-            "website":"",
+            "website":"www.audiology-infos.br.com",
+            "flipbook":"",
             "social":[
               {
                 "name " : "twitter",
@@ -115,20 +135,14 @@
             "name":"Audiology infos France",
             "url":"audiology-infos-france",
             "baseline":"",
-            "text":"Créée en 2008, la revue Audiology Infos se propose d&#39;agir comme révélateur et catalyseur des énergies et des initiatives en matière d&#39;audition, qu&#39;il s&#39;agisse de recherche, de modalités
-diagnostiques, de traitements, de chirurgie, de rééducation ou d&#39;appareillage. Au fil de ces années d’existence, Audiology Infos s’est imposée dans le monde de l’information
-professionnelle des médecins ORL sur les thématiques de l’audioprothèse et de l’audiologie. Au carrefour des savoirs et des actualités de l’audiologie en France et dans le monde et à
-l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluridisciplinarité et de l’ouverture caractéristique de la spécialité.",
+            "text":"Créée en 2008, la revue Audiology Infos se propose d'agir comme révélateur et catalyseur des énergies et des initiatives en matière d'audition, qu'il s'agisse de recherche, de modalités diagnostiques, de traitements, de chirurgie, de rééducation ou d'appareillage. Au fil de ces années d’existence, Audiology Infos s’est imposée dans le monde de l’information professionnelle des médecins ORL sur les thématiques de l’audioprothèse et de l’audiologie. Au carrefour des savoirs et des actualités de l’audiologie en France et dans le monde et à l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluridisciplinarité et de l’ouverture caractéristique de la spécialité.",
             "link":"",
             "website":"",
+            "abonnement":"abos.edpsante.com/audiology-infos.htm",
             "social":[
               {
-                "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
+                "name" : "twitter",
+                "url":"https://twitter.com/Audiology_infos"
               }
             ]
           },
@@ -138,15 +152,24 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "baseline":"",
             "text":"",
             "link":"",
-            "website":"",
+            "website":"www.audiology-infos.it",
+            "flipbook":"",
             "social":[
               {
-                "name " : "twitter",
-                "url":""
+                "name" : "twitter",
+                "url":"https://twitter.com/AudiologyItalia"
               },
               {
-                "name":"facebook",
-                "url":""
+                "name":"linkedin",
+                "url":"https://www.linkedin.com/company/audiology-infos-italia"
+              },
+              {
+                "name":"youtube",
+                "url":"https://www.youtube.com/channel/UC4WRK4WKZ3vvH_w0neYO9Wg"
+              },
+              {
+                "name":"google-plus",
+                "url":"https://plus.google.com/105135594511002055404"
               }
             ]
           },
@@ -156,15 +179,12 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "baseline":"",
             "text":"",
             "link":"",
-            "website":"",
+            "website":"www.audiology-worldnews.com/",
+            "flipbook":"",
             "social":[
               {
-                "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
+                "name" : "twitter",
+                "url":"https://twitter.com/AudioWorldnews"
               }
             ]
           },
@@ -174,11 +194,12 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "baseline":"",
             "text":"",
             "link":"",
-            "website":"",
+            "website":"www.audiology-worldnews.com/",
+            "flipbook":"",
             "social":[
               {
-                "name " : "twitter",
-                "url":""
+                "name" : "twitter",
+                "url":"https://twitter.com/AudioWorldnews"
               },
               {
                 "name":"facebook",
@@ -192,10 +213,10 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "baseline":"",
             "text":"",
             "link":"",
-            "website":"",
+            "website":"www.audition-infos.org",
             "social":[
               {
-                "name " : "twitter",
+                "name" : "twitter",
                 "url":""
               },
               {
@@ -213,22 +234,14 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"Biologiste infos",
             "url":"Biologiste-infos",
             "baseline":"",
-            "text":"Les nouvelles donnes réglementaires imposent aux LBM une totale restructuration de leur activité. Les dirigeants de laboratoires ont de ce fait besoin d’un outil d’information à la fois
-                    scientifique, mais aussi juridique, financier, technique et informatique. Lancé en 2003, Biologiste infos est le magazine d&#39;information stratégique des services de
-                    biologie hospitalière et des laboratoires privés de ville. Depuis plus de dix ans, la revue les accompagne dans leurs démarches et dans l’évolution
-                    de leur profession, à travers des dossiers, des enquêtes et des reportages sur le terrain réalisés par une équipe de journalistes scientifiques. Le magazine donne aussi la parole aux
-                    représentants de la profession à travers des interviews et des points de vue, met en valeur les innovations des fournisseurs et assure la couverture des principaux congrès de biologie
-                    médicale.",
+            "text":"Les nouvelles donnes réglementaires imposent aux LBM une totale restructuration de leur activité. Les dirigeants de laboratoires ont de ce fait besoin d’un outil d’information à la fois scientifique, mais aussi juridique, financier, technique et informatique. Lancé en 2003, Biologiste infos est le magazine d'information stratégique des services de biologie hospitalière et des laboratoires privés de ville. Depuis plus de dix ans, la revue les accompagne dans leurs démarches et dans l’évolution de leur profession, à travers des dossiers, des enquêtes et des reportages sur le terrain réalisés par une équipe de journalistes scientifiques. Le magazine donne aussi la parole aux représentants de la profession à travers des interviews et des points de vue, met en valeur les innovations des fournisseurs et assure la couverture des principaux congrès de biologie médicale.",
             "link":"",
-            "website":"",
+            "website":"www.edp-biologie.fr/",
+            "abonnement":"abos.edpsante.com/biologiste-infos.htm",
             "social":[
               {
-                "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
+                "name" : "twitter",
+                "url":"https://twitter.com/Biologisteinfos"
               }
             ]
           }
@@ -241,11 +254,9 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"Actualités Odonto Stomatologiques",
             "url":"AOS",
             "baseline":"",
-            "text":"AOS, l&#39;encyclopédie du praticien. Une revue maintenue au niveau d&#39;excellence qui la caractérise depuis ses débuts, il y a plus de 60 ans... Sa spécificité : réunir la stomatologie et
-                    l&#39;odontologie, et son originalité : informer les stomatologistes sur l&#39;odontologie et les odontologistes sur la stomatologie, la frontière séparant ces deux spécialités étant plus
-                    virtuelle que réelle, et les échanges d&#39;informations indispensables.",
+            "text":"AOS, l'encyclopédie du praticien. Une revue maintenue au niveau d'excellence qui la caractérise depuis ses débuts, il y a plus de 60 ans... Sa spécificité : réunir la stomatologie et l'odontologie, et son originalité : informer les stomatologistes sur l'odontologie et les odontologistes sur la stomatologie, la frontière séparant ces deux spécialités étant plus virtuelle que réelle, et les échanges d'informations indispensables.",
             "link":"",
-            "website":"",
+            "website":"www.aos-journal.org/",
             "social":[
               {
                 "name " : "twitter",
@@ -261,11 +272,9 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"Dentoscope",
             "url":"dentoscope",
             "baseline":"",
-            "text":"Dentoscope est la plus forte diffusion de la presse dentaire. Cas cliniques, actualités
-                    produits, tests produits, protocoles, agenda des événements et formations, petites
-                    annonces… Dentoscope est le magazine de toute l’actualité scientifique et pratique.",
+            "text":"Dentoscope est la plus forte diffusion de la presse dentaire. Cas cliniques, actualités produits, tests produits, protocoles, agenda des événements et formations, petites annonces… Dentoscope est le magazine de toute l’actualité scientifique et pratique.",
             "link":"",
-            "website":"",
+            "website":"www.edp-dentaire.fr/",
             "social":[
               {
                 "name " : "twitter",
@@ -281,16 +290,9 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"Indépendentaire",
             "url":"independentaire",
             "baseline":"",
-            "text":"Mieux manager son cabinet dentaire.
-                    Parce que la compétence clinique ne suffit plus pour faire d’un cabinet dentaire un centre de
-                    profit pérenne, Indépendentaire propose depuis plus de 10 ans des solutions d’organisation,
-                    de gestion, de communication, de management, de stratégie et de développement
-                    personnel.
-                    Chaque mois dossiers, enquêtes et témoignages sont une source d’inspiration et
-                    d’information pour nos lecteurs. Indépendentaire se démarque de ses concurrents en
-                    abordant les thèmes relatifs au management du cabinet dentaire libéral.",
+            "text":"Mieux manager son cabinet dentaire. Parce que la compétence clinique ne suffit plus pour faire d’un cabinet dentaire un centre de profit pérenne, Indépendentaire propose depuis plus de 10 ans des solutions d’organisation, de gestion, de communication, de management, de stratégie et de développement personnel. Chaque mois dossiers, enquêtes et témoignages sont une source d’inspiration et d’information pour nos lecteurs. Indépendentaire se démarque de ses concurrents en abordant les thèmes relatifs au management du cabinet dentaire libéral.",
             "link":"",
-            "website":"",
+            "website":"www.edp-dentaire.fr/",
             "social":[
               {
                 "name " : "twitter",
@@ -306,15 +308,9 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"Orthophile",
             "url":"orthophile",
             "baseline":"",
-            "text":"Mieux manager son cabinet d&#39;orthodontie.
-                    Depuis plus de 5 ans, Orthophile répond aux attentes de nombreux orthodontistes en traitant
-                    tous les thèmes qui font la réalité quotidienne de l’exercice libéral : communication, gestion,
-                    management, organisation. Par ses articles courts et concrets, sa mise en page claire
-                    permettant d’aller à l’essentiel, Orthophile apporte les solutions pour optimiser sa
-                    productivité, réduire son temps de travail et gagner en qualité de vie. Orthophile est le
-                    complément parfait aux revues scientifiques et cliniques.",
+            "text":"Mieux manager son cabinet d'orthodontie. Depuis plus de 5 ans, Orthophile répond aux attentes de nombreux orthodontistes en traitant tous les thèmes qui font la réalité quotidienne de l’exercice libéral : communication, gestion, management, organisation. Par ses articles courts et concrets, sa mise en page claire permettant d’aller à l’essentiel, Orthophile apporte les solutions pour optimiser sa productivité, réduire son temps de travail et gagner en qualité de vie. Orthophile est le complément parfait aux revues scientifiques et cliniques.",
             "link":"",
-            "website":"",
+            "website":"www.edp-dentaire.fr/",
             "social":[
               {
                 "name " : "twitter",
@@ -335,26 +331,13 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"Nutrition infos",
             "url":"nutrition-infos",
             "baseline":"",
-            "text":"Depuis 8 ans, Nutrition infos propose aux professionnels de la nutrition, diététiciens et
-                    nutritionnistes, une information claire et rigoureuse pour les aider dans leur pratique
-                    quotidienne, au travers de comptes rendus de congrès, d&#39;enquêtes, d&#39;interviews d&#39;experts,
-                    de reportages, ou encore d&#39;actualités sur les nouveaux produits. La nutrition y est abordée
-                    de manière transdisciplinaire. Les sujets traités ne se cantonnent pas aux aspects
-                    diététiques et médicaux de l&#39;alimentation mais abordent Également ses dimensions sociales
-                    et psychologiques ou encore les innovations industrielles. Les avancées de la recherche
-                    sont Également abordées dans la rubrique Médecine &amp; Nutrition, du nom de la revue qui a
-                    fusionné. Les médecins et/ou chercheurs qui rédigent ces pages partagent leurs dernières
-                    découvertes en matière de nutrition santé.",
+            "text":"Depuis 8 ans, Nutrition infos propose aux professionnels de la nutrition, diététiciens et nutritionnistes, une information claire et rigoureuse pour les aider dans leur pratique quotidienne, au travers de comptes rendus de congrès, d'enquêtes, d'interviews d'experts, de reportages, ou encore d'actualités sur les nouveaux produits. La nutrition y est abordée de manière transdisciplinaire. Les sujets traités ne se cantonnent pas aux aspects diététiques et médicaux de l'alimentation mais abordent Également ses dimensions sociales et psychologiques ou encore les innovations industrielles. Les avancées de la recherche sont Également abordées dans la rubrique Médecine &amp; Nutrition, du nom de la revue qui a fusionné. Les médecins et/ou chercheurs qui rédigent ces pages partagent leurs dernières découvertes en matière de nutrition santé.",
             "link":"",
-            "website":"",
+            "website":"www.edp-nutrition.fr/",
             "social":[
               {
-                "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
+                "name" : "twitter",
+                "url":"https://twitter.com/Nutrition_infos"
               }
             ]
           },
@@ -362,23 +345,13 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"Nutrition infos Collectivités",
             "url":"nutrition-infos-collectivités",
             "baseline":"",
-            "text":"Forte de la légitimité et de l’expertise acquises depuis 8 ans grâce à sa revue Nutrition infos,
-                    la société d’édition EDP Santé a choisi d’élargir son champ d’actions en s’adressant aux
-                    professionnels de la restauration collective. Son objectif : les accompagner dans l’élaboration
-                    de repas de haute qualité nutritionnelle en proposant une revue pratique (de la
-                    réglementation à l’équilibre nutritionnel, en passant par l’équipement, l’hygiène ou les
-                    innovations industrielles) qui intéressera, à travers ses différentes rubriques, l’ensemble des
-                    décideurs.",
+            "text":"Forte de la légitimité et de l’expertise acquises depuis 8 ans grâce à sa revue Nutrition infos, la société d’édition EDP Santé a choisi d’élargir son champ d’actions en s’adressant aux professionnels de la restauration collective. Son objectif : les accompagner dans l’élaboration de repas de haute qualité nutritionnelle en proposant une revue pratique (de la réglementation à l’équilibre nutritionnel, en passant par l’équipement, l’hygiène ou les innovations industrielles) qui intéressera, à travers ses différentes rubriques, l’ensemble des décideurs.",
             "link":"",
-            "website":"",
+            "website":"www.edp-nutrition.fr/",
             "social":[
               {
                 "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
+                "url":"https://twitter.com/Nutrition_infos"
               }
             ]
           }
@@ -391,16 +364,9 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"L'entreprise Officinale",
             "url":"entreprise-officinale",
             "baseline":"",
-            "text":"L’Entreprise Officinale est la revue leader sur le positionnement Thérapeutique-Stratégie-Gestion.
-                    Elle accompagne le pharmacien chef d’entreprise de manière opérationnelle pour
-                    développer la performance de son officine, le prépare aux mutations et à ses missions
-                    d&#39;avenir, lui apporte des informations stratégiques, financières et fiscales.
-                    Retrouver dans L’Entreprise Officinale un baromètre économique avec les indicateurs clés
-                    (panier moyen, marge, CA des officines…), des articles synthétiques au format de lecture
-                    optimisé pour aller à l’essentiel, des avis d’experts juridiques, des fiches pratiques
-                    directement opérationnelles (gestion, management, finance, merchandising…).",
+            "text":"L’Entreprise Officinale est la revue leader sur le positionnement Thérapeutique-Stratégie-Gestion. Elle accompagne le pharmacien chef d’entreprise de manière opérationnelle pour développer la performance de son officine, le prépare aux mutations et à ses missions d'avenir, lui apporte des informations stratégiques, financières et fiscales. Retrouver dans L’Entreprise Officinale un baromètre économique avec les indicateurs clés (panier moyen, marge, CA des officines…), des articles synthétiques au format de lecture optimisé pour aller à l’essentiel, des avis d’experts juridiques, des fiches pratiques directement opérationnelles (gestion, management, finance, merchandising…).",
             "link":"",
-            "website":"",
+            "website":"www.profession-pharmacien.fr/",
             "social":[
               {
                 "name " : "twitter",
@@ -416,21 +382,13 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"L’Essentiel de l’Anesthésie-Réanimation",
             "url":"ear",
             "baseline":"",
-            "text":"La lettre d’information à destination de tous les professionnels de l’anesthésie-réanimation.
-                    Médecins anesthésistes, médecins réanimateurs, surveillantes et infirmier(e)s anesthésistes,
-                    ingénieurs biomédicaux… retrouvez dans l’Essentiel de l’Anesthésie-Réanimation un
-                    panorama clair et concis sur votre profession, des reportages, des offres d’emplois et des
-                    repères utiles à la pratique quotidienne de votre activité.",
+            "text":"La lettre d’information à destination de tous les professionnels de l’anesthésie-réanimation. Médecins anesthésistes, médecins réanimateurs, surveillantes et infirmier(e)s anesthésistes, ingénieurs biomédicaux… retrouvez dans l’Essentiel de l’Anesthésie-Réanimation un panorama clair et concis sur votre profession, des reportages, des offres d’emplois et des repères utiles à la pratique quotidienne de votre activité.",
             "link":"",
-            "website":"",
+            "website":"http://www.lessentiel-anesthesie-reanimation.fr",
             "social":[
               {
-                "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
+                "name" : "twitter",
+                "url":"https://twitter.com/anestrea"
               }
             ]
           },
@@ -438,13 +396,7 @@ l’écoute des acteurs de terrain, chaque numéro se veut un reflet de la pluri
             "name":"Profession Pharmacien",
             "url":"profession-pharmacien",
             "baseline":"",
-            "text":"Découvrez ce que vous ne lirez pas ailleurs. Profession Pharmacien développe chaque mois
-                    un contenu éditorial en phase avec les nouvelles missions officinales : entretien
-                    pharmaceutique, prévention et dépistage, expériences de coopérations
-                    interprofessionnelles… L’accent est mis sur le développement de nouveaux marchés comme
-                    l’orthopédie et les dispositifs médicaux.
-                    Votre magazine s’attache aussi à nourrir votre réflexion avec un panorama de sujets
-                    d’actualités et des initiatives de tous les acteurs de la santé et de l’officine.",
+            "text":"Découvrez ce que vous ne lirez pas ailleurs. Profession Pharmacien développe chaque mois un contenu éditorial en phase avec les nouvelles missions officinales : entretien pharmaceutique, prévention et dépistage, expériences de coopérations interprofessionnelles… L’accent est mis sur le développement de nouveaux marchés comme l’orthopédie et les dispositifs médicaux. Votre magazine s’attache aussi à nourrir votre réflexion avec un panorama de sujets d’actualités et des initiatives de tous les acteurs de la santé et de l’officine.",
             "link":"",
             "website":"",
             "social":[

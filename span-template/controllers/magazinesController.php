@@ -31,6 +31,10 @@ public function getAll()
     return $name = $this->_issues->{'poles'};
   }
 
+  public function getAllMagazines()
+  {
+    return $name = $this->_issues->{'poles'}[''];
+  }
   public function getNavlevel0()
   {
     return $name = $this->_issues->{'poles'};
@@ -57,6 +61,10 @@ public function getAll()
 
   public function getMagazineInfos($pole,$magazine){
     return $name = $this->_issues->{'poles'}[$pole]->{'magazines'}[$magazine];
+  }
+  public function getOnePole($pole)
+  {
+    return $name = $this->_issues->{'poles'}[$pole];
   }
 
 }

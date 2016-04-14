@@ -1224,6 +1224,7 @@ ul.social-list li a.vimeo:hover {
   padding: 20px !important;
   position: relative;
   background: #FAFAFA;
+  height:125px;
   -webkit-transition: all 0.9s ease;
   -moz-transition: all 0.9s ease;
   -ms-transition: all 0.9s ease;
@@ -1238,10 +1239,11 @@ ul.social-list li a.vimeo:hover {
 .portfolio-item-content .body {
   line-height: 22px;
   font-style: italic;
+  width: 75%;
 }
 .portfolio-item-content .icon {
   position: absolute;
-  top: 22px;
+  top: 43px;
   right: 20px;
 }
 .portfolio-item-content .icon i {

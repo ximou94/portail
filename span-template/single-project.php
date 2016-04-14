@@ -36,15 +36,13 @@
             <div class="project-content col-md-4">
               <h5 class="widget-title"><?= $issue->name ?></h5>
               <p><?= $issue->text ?></p>
-              <h5 class="widget-title">Project Details</h5>
               <ul>
-                <li><strong>Client:</strong> Graygrids</li>
-                <li><strong>Status:</strong> Finish on 30 jun, 2015</li>
-                <li><strong>Skills:</strong> creative, web design</li>
+                <li><strong>Site internet : </strong> <a href="http://<?= $issue->website ?>" target="_blank"><?= $issue->website?></a></li>
+                <li><strong>Abonnement : </strong><a href="http://<?= $issue->abonnement ?>" target="_blank"><?= $issue->abonnement ?></a></li>
               </ul>
               <div class="share">
                 <div class="social-link">
-                  <span>Share This article</span>
+                  <span>Suivez-nous</span>
                   <?php foreach ($issue->social as $key => $value):?>
                     <?php if (isset($value->name)) {?>
                       <a class="<?= $value->name ?>" target="_blank" data-original-title="<?= $value->name ?>" href="<?= $value->url?>" data-toggle="tooltip" data-placement="top"><i class="fa fa-<?= $value->name?>"></i></a>
@@ -61,8 +59,11 @@
               <div class="row">
                 <!-- Start Recent Projects Carousel -->
                 <div class="recent-projects">
-                  <h4 class="title"><span>Recent Projects</span></h4>
+                  <?php $onePole =  $issues->getOnePole($pole) ?>
+                  <h4 class="title"><span>Les autres magazines en <?= $onePole->name ?></span></h4>
                   <div id="projects-carousel" class="touch-carousel">
+                    <?php foreach ($onePole as $key => $value):?>
+                      <?php foreach ($value as $key1 => $mag):?>
                     <div class="portfolio-item item">
                       <div class="portfolio-border">
                         <div class="portfolio-img">
@@ -73,189 +74,17 @@
                         </div>
                         <div class="portfolio-details">
                           <a href="#">
+                            <?php echo $mag->name ?>
                             <h4>Lorem Ipsum Dolor</h4>
                             <p>Website Drawing</p>
                           </a>
                         </div>
                       </div>
                     </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-02.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-02.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-03.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-03.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-04.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-04.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-05.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-05.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-06.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-06.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-07.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-07.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-08.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-08.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-09.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-09.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-10.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-10.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-11.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-11.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-12.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-12.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
-                          </div>
-                        </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <?php endforeach ?>
+                    <?php endforeach ?>
+
+                </div>
                 </div>
                 <!-- End Recent Projects Carousel -->
               </div>

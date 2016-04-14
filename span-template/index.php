@@ -128,8 +128,13 @@
             </div>
             <!-- End Heading -->
             <!-- Portfolio Recent Projects -->
-            <div id="portfolio-list">
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design Audiologie">
+        <?php $magazines = $nav->getAllPoles();?>
+                        <div id="portfolio-list">
+            <?php foreach ($magazines as $key => $pole) {
+              foreach ($pole as $number => $magazine) {
+                foreach ($magazine as $key2 => $value) :?>
+
+              <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 mix design <?= $pole->name?>">
                 <div class="portfolio-item">
                   <div class="portfolio-img">
                     <img src="assets/img/portfolio/audio-infos.jpg" alt="" />
@@ -139,7 +144,7 @@
                   </div>
                   <div class="portfolio-item-content">
                     <h3 class="header">
-                      Audio infos
+                      <?= $value->name ?>
                     </h3>
                     <p class="body">
                       Site d'information 100% dédié à l'audiologie
@@ -150,112 +155,10 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design Biologie">
-                <div class="portfolio-item">
-                  <div class="portfolio-img">
-                    <img src="assets/img/portfolio/biologiste-infos.jpg" alt="" />
-                    <div class="overlay">
-                      <a href="assets/img/portfolio/biologiste-infos.jpg" class="lightbox"><i class="icon-plus more"></i></a>
-                    </div>
-                  </div>
-                  <div class="portfolio-item-content">
-                    <h3 class="header">
-                      Biologiste infos
-                    </h3>
-                    <p class="body">
-                      La référence professionnelle de la Biologie Médicale
-                    </p>
-                    <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design Dentaire">
-                <div class="portfolio-item">
-                  <div class="portfolio-img">
-                    <img src="assets/img/portfolio/img-3.jpg" alt="" />
-                    <div class="overlay">
-                      <a href="assets/img/portfolio/img-3.jpg" class="lightbox"><i class="icon-plus more"></i></a>
-                    </div>
-                  </div>
-                  <div class="portfolio-item-content">
-                    <h3 class="header">
-                      Indépendentaire
-                    </h3>
-                    <p class="body">
-                      La référence du monde dentaire
-                    </p>
-                    <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix Nutrition">
-                <div class="portfolio-item">
-                  <div class="portfolio-img">
-                    <img src="assets/img/portfolio/img-4.jpg" alt="" />
-                    <div class="overlay">
-                      <a href="assets/img/portfolio/img-4.jpg" class="lightbox"><i class="icon-plus more"></i></a>
-                    </div>
-                  </div>
-                  <div class="portfolio-item-content">
-                    <h3 class="header">
-                      Nutrition infos
-                    </h3>
-                    <p class="body">
-                      La référence du monde de la Nutrition
-                    </p>
-                    <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix design Pharmacie">
-                <div class="portfolio-item">
-                  <div class="portfolio-img">
-                    <img src="assets/img/portfolio/img-5.jpg" alt="" />
-                    <div class="overlay">
-                      <a href="assets/img/portfolio/img-5.jpg" class="lightbox"><i class="icon-plus more"></i></a>
-                    </div>
-                  </div>
-                  <div class="portfolio-item-content">
-                    <h3 class="header">
-                      Profession pharmacien
-                    </h3>
-                    <p class="body">
-                      web develpment, design
-                    </p>
-                    <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 mix designe appartment">
-                <div class="portfolio-item">
-                  <div class="portfolio-img">
-                    <img src="assets/img/portfolio/img-6.jpg" alt="" />
-                    <div class="overlay">
-                      <a href="assets/img/portfolio/img-6.jpg" class="lightbox"><i class="icon-plus more"></i></a>
-                    </div>
-                  </div>
-                  <div class="portfolio-item-content">
-                    <h3 class="header">
-                      Monocle issue
-                    </h3>
-                    <p class="body">
-                      web develpment, design
-                    </p>
-                    <div class="icon">
-                      <a href="single-project.php"><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <?php endforeach ?>
+            <?php  }
+            } ?>
+
             <!-- End Portfolio Recent Projects -->
           </div>
         </div>

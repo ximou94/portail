@@ -64,29 +64,29 @@
                   <div id="projects-carousel" class="touch-carousel">
                     <?php foreach ($onePole as $key => $value):?>
                       <?php foreach ($value as $key1 => $mag):?>
-                    <div class="portfolio-item item">
-                      <div class="portfolio-border">
-                        <div class="portfolio-img">
-                          <img alt="" src="assets/img/projects/projects-01.jpg" />
-                          <div class="overlay">
-                            <a href="assets/img/projects/projects-01.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
+                        <?php if($key1 != $magazine){?>
+                      <div class="portfolio-item item">
+                        <div class="portfolio-border">
+                          <div class="portfolio-img">
+                            <img alt="" src="assets/img/projects/projects-01.jpg" />
+                            <div class="overlay">
+                              <a href="assets/img/projects/projects-01.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
+                            </div>
+                          </div>
+                          <div class="portfolio-details">
+                            <a href="#">
+                              <h4><?php echo $mag->name ?></h4>
+                              <p>Website Drawing</p>
+                            </a>
                           </div>
                         </div>
-                        <div class="portfolio-details">
-                          <a href="#">
-                            <?php echo $mag->name ?>
-                            <h4>Lorem Ipsum Dolor</h4>
-                            <p>Website Drawing</p>
-                          </a>
-                        </div>
                       </div>
-                    </div>
-                  <?php endforeach ?>
+                      <?php }?>
+                      <?php endforeach ?>
                     <?php endforeach ?>
-
                 </div>
-                </div>
-                <!-- End Recent Projects Carousel -->
+              </div>
+              <!-- End Recent Projects Carousel -->
               </div>
             </div>
             <!-- .container -->

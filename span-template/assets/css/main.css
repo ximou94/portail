@@ -1266,6 +1266,10 @@ ul.social-list li a.vimeo:hover {
 .portfolio-item:hover .portfolio-item-content .icon i {
   background: #fff;
 }
+
+.portfolio-item.item .portfolio-details{
+    height: 100px;
+}
 #blog {
   position: relative;
   width: 100%;

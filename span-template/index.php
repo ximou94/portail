@@ -150,7 +150,7 @@
                       Site d'information 100% dédié à l'audiologie
                     </p>
                     <div class="icon">
-                      <a href="audio-infos.php"><i class="fa fa-arrow-right"></i></a>
+                      <a href="single-project.php?pole=<?=$key?>&position=<?=$key2?>"><i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>

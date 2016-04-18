@@ -38,11 +38,17 @@
               <p><?= $issue->text ?></p>
               <ul>
                 <li><strong>Site internet : </strong> <a href="http://<?= $issue->website ?>" target="_blank"><?= $issue->website?></a></li>
+              <?php if (isset($issue->abonnement)):?>
                 <li><strong>Abonnement : </strong><a href="http://<?= $issue->abonnement ?>" target="_blank"><?= $issue->abonnement ?></a></li>
+               <?php else :?>
+                <li><strong>Abonnement : </strong><a href="http://<?= $issue->flipbook?>" target="_blank"><?= $issue->flipbook?></a></li>
+              <?php endif ?>
               </ul>
+              <?php if (!empty($issue->social)):?>
               <div class="share">
                 <div class="social-link">
                   <span>Suivez-nous</span>
+
                   <?php foreach ($issue->social as $key => $value):?>
                     <?php if (isset($value->name)) {?>
                       <a class="<?= $value->name ?>" target="_blank" data-original-title="<?= $value->name ?>" href="<?= $value->url?>" data-toggle="tooltip" data-placement="top"><i class="fa fa-<?= $value->name?>"></i></a>
@@ -50,6 +56,8 @@
                   <?php endforeach ?>
                 </div>
               </div>
+              <?php endif ?>
+
             </div>
             <!-- End Project Content -->
           </div>
@@ -74,7 +82,7 @@
                             </div>
                           </div>
                           <div class="portfolio-details">
-                            <a href="#">
+                            <a href="single-project.php?pole=<?=$pole?>&position=<?=$key1?>">
                               <h4><?php echo $mag->name ?></h4>
                               <p>Website Drawing</p>
                             </a>

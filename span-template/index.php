@@ -81,15 +81,9 @@
                   <div class="col-md-6">
                     <p>EDP Santé se divise en 5 pôles majeurs :</p>
                     <ul class="icons-list">
-                      <li><i class="fa fa-check-circle"></i> L&#39;audiologie</li>
-                      <li><i class="fa fa-check-circle"></i> La biologie</li>
-                    </ul>
-                  </div>
-                  <div class="col-md-6">
-                    <ul class="icons-list">
-                      <li><i class="fa fa-check-circle"></i> Le dentaire</li>
-                      <li><i class="fa fa-check-circle"></i> La nutrition</li>
-                      <li><i class="fa fa-check-circle"></i> La pharmacie</li>
+                      <?php foreach ($sector as $key => $value):?>
+                        <li><i class="fa fa-check-circle"></i><?= $nav->getNavLevel0Name($key)?></li>
+                      <?php endforeach ?>
                     </ul>
                   </div>
                 </div>

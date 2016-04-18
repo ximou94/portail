@@ -79,6 +79,7 @@
                     <span class="detail">109 avenue Aristide Briand – CS 90042 – 92541 Montrouge cedex</span>
                   </div>
                 </div>
+
                 <div class="contact-datails">
                   <div class="icon">
                     <i class="fa fa-phone icon-radius"></i>
@@ -86,6 +87,15 @@
                   <div class="info">
                     <h3>Téléphone</h3>
                     <span class="detail">01.41.17.73.90</span>
+                  </div>
+                </div>
+                <div class="contact-datails">
+                  <div class="icon">
+                    <i class="fa fa-fax icon-radius"></i>
+                  </div>
+                  <div class="info">
+                    <h3>Fax</h3>
+                    <span class="detail">+33(0)1.41.17.73.90</span>
                   </div>
                 </div>
                 <div class="contact-datails">

@@ -214,7 +214,7 @@ input[type="submit"] {
 }
 .boxed-page {
   position: relative;
-  width: 1220px;
+  width: 100%;
   margin: 0 auto;
   background-color: #fff;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -223,7 +223,7 @@ input[type="submit"] {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .boxed-page header {
-  width: 1220px;
+  width: 100%;
 }
 #loader {
   position: fixed;

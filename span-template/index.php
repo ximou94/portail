@@ -88,16 +88,12 @@
                   </div>
                 </div>
                 <!-- End Icons Lists -->
-                <!-- Divider -->
-                <div class="hr1" style="margin-bottom:20px;"></div>
-                <!-- Button -->
-                <a href="about.php" class="btn btn-effect btn-small">Read More About Us</a>
               </div>
               <!-- End Left Side -->
               <!-- Vimeo Iframe -->
               <div class="col-md-6">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://player.vimeo.com/video/63322694?title=0&amp;byline=0&amp;portrait=0" width="800" height="450"></iframe>
+                  <iframe  src="https://www.youtube.com/embed/j7PiXupSguM" width="800" height="450"></iframe>
                 </div>
               </div>
             </div>

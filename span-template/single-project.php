@@ -34,7 +34,7 @@
             <?php $issue = $issues->getMagazineInfos($pole,$magazine) ?>
             <!-- Start Project Content -->
             <div class="project-content col-md-4">
-              <h5 class="widget-title"><?= $issue->name ?></h5>
+              <h3 class="widget-title"><?= $issue->name ?></h3>
               <p><?= $issue->text ?></p>
               <ul>
                 <li><strong>Site internet : </strong> <a href="http://<?= $issue->website ?>" target="_blank"><?= $issue->website?></a></li>
@@ -62,12 +62,14 @@
             <!-- End Project Content -->
           </div>
           <!-- Start Portfolio Section -->
+          <?php $onePole =  $issues->getOnePole($pole) ?>
+          <?php if(count($onePole->magazines) >= 2): ?>
           <div class="project">
             <div class="container">
               <div class="row">
                 <!-- Start Recent Projects Carousel -->
                 <div class="recent-projects">
-                  <?php $onePole =  $issues->getOnePole($pole) ?>
+
                   <h4 class="title"><span>Les autres magazines en <?= $onePole->name ?></span></h4>
                   <div id="projects-carousel" class="touch-carousel">
                     <?php foreach ($onePole as $key => $value):?>
@@ -99,9 +101,10 @@
             </div>
             <!-- .container -->
           </div>
+        <?php endif ?>
           <!-- End Portfolio Section -->
         </div>
       </div>
       <!-- End Content -->
       <!-- Start Footer Section -->
-    <?php include_once ROOT.DS."layouts".DS."footer.phtml" ?>  
+    <?php include_once ROOT.DS."layouts".DS."footer.phtml" ?>

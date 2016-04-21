@@ -67,7 +67,7 @@
             <div class="col-md-5 col-md-offset-1">
               <h2 class="title1 upper">
                 <i class="fa fa-pencil"></i>
-                Contact Information
+                Informations
               </h2>
               <div class="information">
                 <div class="contact-datails">
@@ -103,19 +103,10 @@
                     <i class="fa fa-location-arrow icon-radius"></i>
                   </div>
                   <div class="info">
-                    <h3>Email Address</h3>
+                    <h3>adresse mail</h3>
                     <span class="detail">Customer
                     Support: info@mail.com</span>
                     <span class="datail">Technical Support: support@mail.com</span>
-                  </div>
-                </div>
-                <div class="contact-datails">
-                  <div class="icon">
-                    <i class="fa fa-pencil icon-radius"></i>
-                  </div>
-                  <div class="info">
-                    <h3>Other Datails</h3>
-                    <span class="detail">Site Name: <a href="http://graygrids.com/">Graygrids.com</a></span>
                   </div>
                 </div>
               </div>

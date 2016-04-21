@@ -141,7 +141,7 @@
                       <?= $value->name ?>
                     </h3>
                     <p class="body">
-                      Site d'information 100% dédié à l'audiologie
+                      <?= $value->baseline?>
                     </p>
                     <div class="icon">
                       <a href="single-project.php?pole=<?=$key?>&position=<?=$key2?>"><i class="fa fa-arrow-right"></i></a>

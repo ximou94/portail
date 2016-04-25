@@ -64,6 +64,8 @@
           <!-- Start Portfolio Section -->
           <?php $onePole =  $issues->getOnePole($pole) ?>
           <?php if(count($onePole->magazines) >= 2): ?>
+
+            <div class="row">
           <div class="project">
             <div class="container">
               <div class="row">
@@ -101,9 +103,68 @@
             </div>
             <!-- .container -->
           </div>
+
+            </div>
+
         <?php endif ?>
           <!-- End Portfolio Section -->
+
+            <?php if(isset($issue->team) AND !empty($issue->team)):?>
+<div class="row">
+
+      <div class="section">
+        <div class="container">
+          <!-- Start Big Heading -->
+          <div class="big-title text-center">
+            <h1>
+              Contactez nos équipes
+            </h1>
+          </div>
+          <!-- End Big Heading -->
+          <div class="row">
+            <!-- Start Memebr 1 -->
+            <?php foreach ($issue->team as $key => $value):?>
+          <div class="col-md-3 col-sm-6">
+              <div class="tema-member">
+                <div class="team-thumbnail">
+                  <img src="<?= $value->photo ?>" alt="">
+                  <div class="overlay">
+                    <div class="social-media">
+                      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                      <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="info" itemscope itemtype="http://schema.org/Person">
+                  <h4><span itemprop="name"><?= $value->name ?></span></h4>
+                  <h5><span itemprop="jobTitle"><?= $value->profession ?></span></h5>
+                  <div style="margin-bottom:15px;margin-top:15px" class="hr5"></div>
+                  <p>
+                    <i class="icon-call-out fa-2x">
+                    </i>
+                    <span itemprop="telephone"><?= $value->phone ?></span>
+                  </p>
+                      <p>
+                    <i class="icon-envelope fa-2x">
+                    </i>
+                  <span itemprop="email"><a href="mailto:<?= $value->mail ?>"><?= $value->mail ?></a></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+        <?php endforeach ?>
+
+          </div>
         </div>
+      </div>
+      <!-- Start Team Member Section -->
+
+</div>
+<?php endif ?>
+        </div>
+
       </div>
       <!-- End Content -->
       <!-- Start Footer Section -->

@@ -12,13 +12,11 @@
             "website":"www.audio-infos.de",
             "abonnement":"abos.edpsante.com/audio-infos-deutschland.htm",
             "social":[
+            ],
+            "team":[
               {
-                "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
+                "name":"Benjamin ",
+                "profession":"journaliste"
               }
             ]
           },
@@ -38,6 +36,10 @@
               {
                 "name":"linkedin",
                 "url":"https://www.linkedin.com/grps/Audioenportada-8186515/about"
+              },
+              {
+                "name":"youtube",
+                "url":"https://www.youtube.com/channel/UC-I6THHiyrWIuOfe7w-cmxQ"
               }
             ]
           },
@@ -61,6 +63,34 @@
               "name":"google-plus",
               "url":"https://plus.google.com/103510988204477340688"
             }
+          ],
+          "team":[
+            {
+              "name":"Ludivine Aubin",
+              "profession":"Rédactrice en chef",
+              "photo":"assets/img/team/ludivine-aubin.jpg",
+              "mail":"ludivine.aubin@edpsante.fr",
+              "phone":""
+            },
+            {
+              "name":"Bruno Scala",
+              "profession":"journaliste",
+              "photo":"assets/img/team/bruno-scala.jpg",
+              "mail":"bruno.scala@edpsante.fr"
+            },
+            {
+              "name":"Florence Bozec",
+              "profession":"journaliste",
+              "photo":"assets/img/team/florence-bozec.jpg",
+              "mail":"florence.bozec@edpsante.fr"
+            },
+            {
+              "name":"Clement Devillard",
+              "profession":"Chef de pub",
+              "photo":"assets/img/team/clement-devillard.jpg",
+              "mail":"clement.devillard@edpsante.fr",
+              "phone":"+33(0)1 41 17 73 98"
+            }
           ]
           },
           {
@@ -79,6 +109,10 @@
               {
                 "name":"linkedin",
                 "url":"https://www.linkedin.com/grps/Audioenportada-8186515/about"
+              },
+              {
+                "name":"youtube",
+                "url":"https://www.youtube.com/channel/UC-I6THHiyrWIuOfe7w-cmxQ"
               }
             ]
           },
@@ -121,14 +155,6 @@
             "website":"www.audiology-infos.br.com",
             "flipbook":"www.fliphtml5.com/bookcase/kvox",
             "social":[
-              {
-                "name " : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
-              }
             ]
           },
           {

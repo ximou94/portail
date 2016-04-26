@@ -70,26 +70,26 @@
               "name":"Ludivine Aubin",
               "profession":"Rédactrice en chef",
               "photo":"/assets/img/team/ludivine-aubin.jpg",
-              "mail":"ludivine.aubin@edpsante.fr",
+              "mail":"&#108;&#117;&#100;&#105;&#118;&#105;&#110;&#101;&#46;&#97;&#117;&#98;&#105;&#110;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;",
               "phone":""
             },
             {
               "name":"Bruno Scala",
               "profession":"journaliste",
               "photo":"/assets/img/team/bruno-scala.jpg",
-              "mail":"bruno.scala@edpsante.fr"
+              "mail":"&#98;&#114;&#117;&#110;&#111;&#46;&#115;&#99;&#97;&#108;&#97;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;"
             },
             {
               "name":"Florence Bozec",
               "profession":"journaliste",
               "photo":"/assets/img/team/florence-bozec.jpg",
-              "mail":"florence.bozec@edpsante.fr"
+              "mail":"&#102;&#108;&#111;&#114;&#101;&#110;&#99;&#101;&#46;&#98;&#111;&#122;&#101;&#99;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;"
             },
             {
               "name":"Clement Devillard",
               "profession":"Chef de pub",
               "photo":"/assets/img/team/clement-devillard.jpg",
-              "mail":"clement.devillard@edpsante.fr",
+              "mail":"&#99;&#108;&#101;&#109;&#101;&#110;&#116;&#46;&#100;&#101;&#118;&#105;&#108;&#108;&#97;&#114;&#100;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;",
               "phone":"+33(0)1 41 17 73 98"
             }
           ]
@@ -407,7 +407,7 @@
           },
           {
             "name":"Nutrition infos Collectivités",
-            "url":"nutrition-infos-collectivités",
+            "url":"nutrition-infos-collectivites",
             "baseline":"La revue des professionnels de la nutrition et de la restauration collective",
             "text":"Forte de la légitimité et de l’expertise acquises depuis 8 ans grâce à sa revue Nutrition infos, la société d’édition EDP Santé a choisi d’élargir son champ d’actions en s’adressant aux professionnels de la restauration collective. Son objectif : les accompagner dans l’élaboration de repas de haute qualité nutritionnelle en proposant une revue pratique (de la réglementation à l’équilibre nutritionnel, en passant par l’équipement, l’hygiène ou les innovations industrielles) qui intéressera, à travers ses différentes rubriques, l’ensemble des décideurs.",
             "link":"",

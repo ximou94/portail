@@ -1,9 +1,18 @@
+  <?php include_once 'config.php' ?>
+  <?php include_once '/Controllers/magazinesController.php' ?>
+  <?php $issues = new  magazinesController();?>
+
+  <?php $pole = $_GET['pole']; $magazine = $_GET['position'] ?>
+  <?php $link = $_GET['url'] ?>
+  <?php $issue = $issues->getMagazineInfos($pole,$magazine) ?>
+
+<?php if ($link != $issue->url ) {
+header('location:http://edp-sante.fr/magazine/'.$pole.''.$magazine.'-'.$issue->url);
+} ?>
   <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/header.phtml"; ?>
   <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/topBar.phtml"; ?>
   <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/nav.phtml"; ?>
-  <?php $issues = new  magazinesController();?>
-<?php $url =($_SERVER['REQUEST_URI']); ?>
-<?php $pole = $_GET['pole']; $magazine = $_GET['position'] ?>
+  <?php $url =($_SERVER['REQUEST_URI']); ?>
 <?php $page = explode('?', $url); ?>
     <!-- Start Content -->
     <div id="content">
@@ -31,7 +40,7 @@
               </div>
             </div>
             <!-- End Single Project Slider -->
-            <?php $issue = $issues->getMagazineInfos($pole,$magazine) ?>
+
             <!-- Start Project Content -->
             <div class="project-content col-md-4">
               <h3 class="widget-title"><?= $issue->name ?></h3>
@@ -149,7 +158,7 @@
                       <p>
                     <i class="icon-envelope fa-2x">
                     </i>
-                  <span itemprop="email"><a href="mailto:<?= $value->mail ?>"><?= $value->mail ?></a></span>
+                  <span itemprop="email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;<?= $value->mail ?>"><?= $value->mail ?></a></span>
                   </p>
                 </div>
               </div>

@@ -24,7 +24,7 @@ public function getAll()
 
   public function getUrl()
   {
-    return $name = $this->_issues->{'isuues'}->{'url'};
+    return $name = $this->_issues->{'isues'}->{'url'};
   }
 
   public function getAllPoles(){

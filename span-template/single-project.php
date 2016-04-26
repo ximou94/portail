@@ -1,6 +1,6 @@
-  <?php include_once"layouts/header.phtml"; ?>
-  <?php include_once"layouts/topBar.phtml"; ?>
-  <?php include_once"layouts/nav.phtml"; ?>
+  <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/header.phtml"; ?>
+  <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/topBar.phtml"; ?>
+  <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/nav.phtml"; ?>
   <?php $issues = new  magazinesController();?>
 <?php $url =($_SERVER['REQUEST_URI']); ?>
 <?php $pole = $_GET['pole']; $magazine = $_GET['position'] ?>
@@ -14,17 +14,17 @@
             <div class="touch-slider owl-carousel" data-slider-pagination="true">
                 <div class="item">
                   <a class="lightbox" title="This is an image title" href="assets/img/blog/blog1-large.jpg">
-                  <img src="assets/img/blog/blog1-large.jpg" alt="">
+                  <img src="/assets/img/blog/blog1-large.jpg" alt="">
                   <div class="thumb-overlay"><i class="icon-size-fullscreen"></i></div>
                   </a>
                 </div>
                 <div class="item">
-                  <a class="lightbox" title="This is an image title" href="assets/img/blog/blog2-large.jpg"><img src="assets/img/blog/blog2-large.jpg" alt="">
+                  <a class="lightbox" title="This is an image title" href="/assets/img/blog/blog2-large.jpg"><img src="/assets/img/blog/blog2-large.jpg" alt="">
                   <div class="thumb-overlay"><i class="icon-size-fullscreen"></i></div>
                   </a>
                 </div>
                 <div class="item">
-                  <a class="lightbox" href="assets/img/blog/blog3-large.jpg"><img src="assets/img/blog/blog3-large.jpg" alt="">
+                  <a class="lightbox" href="/assets/img/blog/blog3-large.jpg"><img src="/assets/img/blog/blog3-large.jpg" alt="">
                   <div class="thumb-overlay"><i class="icon-size-fullscreen "></i></div>
                   </a>
                 </div>
@@ -80,9 +80,9 @@
                       <div class="portfolio-item item">
                         <div class="portfolio-border">
                           <div class="portfolio-img">
-                            <img alt="" src="assets/img/projects/projects-01.jpg" />
+                            <img alt="" src="/assets/img/projects/projects-01.jpg" />
                             <div class="overlay">
-                              <a href="assets/img/projects/projects-01.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
+                              <a href="/assets/img/projects/projects-01.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
                             </div>
                           </div>
                           <div class="portfolio-details">

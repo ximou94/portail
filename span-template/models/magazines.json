@@ -68,26 +68,26 @@
             {
               "name":"Ludivine Aubin",
               "profession":"Rédactrice en chef",
-              "photo":"assets/img/team/ludivine-aubin.jpg",
+              "photo":"/assets/img/team/ludivine-aubin.jpg",
               "mail":"ludivine.aubin@edpsante.fr",
               "phone":""
             },
             {
               "name":"Bruno Scala",
               "profession":"journaliste",
-              "photo":"assets/img/team/bruno-scala.jpg",
+              "photo":"/assets/img/team/bruno-scala.jpg",
               "mail":"bruno.scala@edpsante.fr"
             },
             {
               "name":"Florence Bozec",
               "profession":"journaliste",
-              "photo":"assets/img/team/florence-bozec.jpg",
+              "photo":"/assets/img/team/florence-bozec.jpg",
               "mail":"florence.bozec@edpsante.fr"
             },
             {
               "name":"Clement Devillard",
               "profession":"Chef de pub",
-              "photo":"assets/img/team/clement-devillard.jpg",
+              "photo":"/assets/img/team/clement-devillard.jpg",
               "mail":"clement.devillard@edpsante.fr",
               "phone":"+33(0)1 41 17 73 98"
             }

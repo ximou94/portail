@@ -1,4 +1,4 @@
 RewriteEngine On
-RewriteRule magazine/([0-9]+)/([a-z0-9\-]+) single-project.php?pole=$1&position=$2 [L]
+RewriteRule magazine/([0-9])([0-9]+)-([a-z0-9\-]+) single-project.php?pole=$1&position=$2 [L]
 
-ErrorDocument 404 http://localhost/Portail-EDP-Sante1/span-template/404.php
+ErrorDocument 404 http://edp-sante.fr/404.php

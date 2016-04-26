@@ -1,13 +1,13 @@
-<?php include_once"layouts/header.phtml"; ?>
-  <?php include_once"layouts/topBar.phtml"; ?>
-  <?php include_once"layouts/nav.phtml"; ?>
+<?php include_once "layouts/header.phtml"; ?>
+  <?php include_once "layouts/topBar.phtml"; ?>
+  <?php include_once "layouts/nav.phtml"; ?>
       <!-- Start Content -->
       <div id="content">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3">
               <div class="error-page">
-                <p>Ooopps.! The page you were looking for doesn't exist</p>
+                <p>Désolé, la page que vous demandez est introuvable.</p>
                 <h1>404</h1>
                 <a href="index.php" class="btn btn-larg btn-effect">Retour à la page d'accueil</a>
               </div>

@@ -86,7 +86,7 @@
                             </div>
                           </div>
                           <div class="portfolio-details">
-                            <a href="single-project.php?pole=<?=$pole?>&position=<?=$key1?>">
+                            <a href="http://edp-sante.fr/magazine/<?=$pole?><?=$key1?>-<?= $mag->url?>">
                               <h4><?php echo $mag->name ?></h4>
                               <p>Website Drawing</p>
                             </a>

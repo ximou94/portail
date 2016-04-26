@@ -145,7 +145,7 @@
                       <?= $value->baseline ?>
                     </p>
                     <div class="icon">
-                      <a href="single-project.php?pole=<?=$key?>&position=<?=$key2?>"><i class="fa fa-arrow-right"></i></a>
+                      <a href="magazine/<?=$key?><?=$key2?>-<?=$value->url?>"><i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>

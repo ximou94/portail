@@ -45,6 +45,7 @@
           },
           {
             "name":"Audio infos France",
+            "url":"audio-infos-france",
             "baseline":"Site d'information 100% dédié à l'audiologie",
             "text":"Audio Infos est le magazine de référence des audioprothésistes et de toute la filière. La revue reflète, depuis plus de 20 ans, l'actualité de la profession, ses problématiques et enjeux, ses perspectives et accompagne son évolution. Audio Infos traite, chaque mois, tous les thèmes qui font le quotidien de cette profession : actualités professionnelles et technologiques, reportages, interviews, portraits, dossiers thématiques, comptes rendus de manifestations, articles scientifiques, veille technologique, communication, gestion et management. Des sujets à la fois techniques et marketing qui permettent à Audio Infos de répondre aux besoins d'information d'une profession à la croisée entre médical, technique et commercial.",
             "link":"",
@@ -251,7 +252,7 @@
         "magazines":[
           {
             "name":"Biologiste infos",
-            "url":"Biologiste-infos",
+            "url":"biologiste-infos",
             "baseline":"La référence professionnelle de la Biologie Médicale",
             "text":"Lancé en 2003, Biologiste infos est le magazine d'information stratégique des services de biologie hospitalière et des laboratoires de biologie médicale privés de ville. Du fait de l’accréditation et des restructurations de leur activité, les dirigeants ont besoin d’un outil d’information qui soit à la fois scientifique, mais aussi juridique, financier, technique et informatique. Depuis plus de dix ans, notre revue les accompagne dans l’évolution de leur profession, à travers des enquêtes et des reportages réalisés par une équipe de journalistes scientifiques. Le magazine met aussi en valeur les innovations des fournisseurs et assure la couverture des principaux congrès de biologie médicale.",
             "link":"",
@@ -267,6 +268,21 @@
                 "url":"https://www.youtube.com/channel/UCs2cqrMcTHUdRyokYRl_ZEQ"
               }
             ]
+          },
+          {
+            "name":"L’Essentiel de l’Anesthésie-Réanimation",
+            "url":"essentiel-anesthesie-reanimation",
+            "baseline":"La lettre d'information à destination de tous les professionnels de l'anesthésie-réanimation",
+            "text":"L’Essentiel de l’Anesthésie-Réanimation est la lettre d’information trimestrielle à destination de tous les professionnels de l’anesthésie-réanimation : médecins anesthésistes, réanimateurs, surveillants, infirmiers anesthésistes, urgentistes et ingénieurs biomédicaux. Retrouvez dans ce magazine, un panorama clair et concis sur votre profession à travers des reportages, des enquêtes et des points de vue des principaux acteurs du secteur. Vous y trouverez également des comptes rendus de congrès, des offres d’emplois et des repères utiles à la pratique quotidienne de votre activité. Et pour vous informer quotidiennement, le magazine est couplé au site www.lessentiel-anesthesie-reanimation.fr",
+            "link":"",
+            "website":"www.lessentiel-anesthesie-reanimation.fr",
+            "abonnement":"abos.edpsante.com/l-essentiel-l-anesthesie-reanimation-1-an-version-papier.htm",
+            "social":[
+              {
+                "name" : "twitter",
+                "url":"https://twitter.com/anestrea"
+              }
+            ]
           }
         ]
       },
@@ -275,7 +291,7 @@
       "magazines":[
           {
             "name":"Actualités Odonto Stomatologiques",
-            "url":"AOS",
+            "url":"actualites-odonto-stomatologiques",
             "baseline":"",
             "text":"AOS, l'encyclopédie du praticien. Une revue maintenue au niveau d'excellence qui la caractérise depuis ses débuts, il y a plus de 60 ans... Sa spécificité : réunir la stomatologie et l'odontologie, et son originalité : informer les stomatologistes sur l'odontologie et les odontologistes sur la stomatologie, la frontière séparant ces deux spécialités étant plus virtuelle que réelle, et les échanges d'informations indispensables.",
             "link":"",
@@ -419,21 +435,6 @@
             "abonnement":"abos.edpsante.com/l-entreprise-officinale.htm",
             "social":[
                     ]
-          },
-          {
-            "name":"L’Essentiel de l’Anesthésie-Réanimation",
-            "url":"ear",
-            "baseline":"La lettre d'information à destination de tous les professionnels de l'anesthésie-réanimation",
-            "text":"L’Essentiel de l’Anesthésie-Réanimation est la lettre d’information trimestrielle à destination de tous les professionnels de l’anesthésie-réanimation : médecins anesthésistes, réanimateurs, surveillants, infirmiers anesthésistes, urgentistes et ingénieurs biomédicaux. Retrouvez dans ce magazine, un panorama clair et concis sur votre profession à travers des reportages, des enquêtes et des points de vue des principaux acteurs du secteur. Vous y trouverez également des comptes rendus de congrès, des offres d’emplois et des repères utiles à la pratique quotidienne de votre activité. Et pour vous informer quotidiennement, le magazine est couplé au site www.lessentiel-anesthesie-reanimation.fr",
-            "link":"",
-            "website":"www.lessentiel-anesthesie-reanimation.fr",
-            "abonnement":"abos.edpsante.com/l-essentiel-l-anesthesie-reanimation-1-an-version-papier.htm",
-            "social":[
-              {
-                "name" : "twitter",
-                "url":"https://twitter.com/anestrea"
-              }
-            ]
           },
           {
             "name":"Profession Pharmacien",

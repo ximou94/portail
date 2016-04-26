@@ -17,8 +17,8 @@ $page = explode('/', $url);
               </i>
               </button>
               <!-- End Toggle Nav Link For Mobiles -->
-              <a class="navbar-brand" href="index.php">
-              <img alt="" src="assets/img/logo-edpsante.png">
+              <a class="navbar-brand" href="/index.php">
+              <img alt="" src="/assets/img/logo-edpsante.png">
               </a>
             </div>
             <div class="navbar-collapse collapse">
@@ -63,10 +63,10 @@ $page = explode('/', $url);
                       </a>
                       <?php $magazine = $nav->getNavLevel1($i)?>
                       <ul class="sup-dropdown">
-
                         <?php foreach ($magazine as $key => $value): ?>
+                        <?php $title = $nav->getMagazineInfos($pole,$key) ?>
                         <li>
-                          <a href="http://edp-sante.fr/magazine/<?=$pole?><?=$key?>-vgrs">
+                          <a href="http://edp-sante.fr/magazine/<?=$pole?><?=$key?>-<?= $title->url?>">
                             <?= $nav->getNavLevel1Name($i,$key)?>
                           </a>
                         </li>

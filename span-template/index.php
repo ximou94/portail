@@ -67,7 +67,7 @@
                 <!-- Start Big Heading -->
                 <div class="big-title">
                   <h1>EDP Santé</h1>
-                  <p class="title-desc">Some Words About Our Company</p>
+              <!--    <p class="title-desc">Some Words About Our Company</p>-->
                 </div>
                 <!-- End Big Heading -->
                 <!-- Some Text -->
@@ -98,7 +98,7 @@
               <!-- Vimeo Iframe -->
               <div class="col-md-6">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://player.vimeo.com/video/63322694?title=0&amp;byline=0&amp;portrait=0" width="800" height="450"></iframe>
+                  <iframe src="https://www.youtube.com/embed/j7PiXupSguM" width="800" height="450"></iframe>
                 </div>
               </div>
             </div>
@@ -132,9 +132,9 @@
               <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 mix design <?= $pole->name?>">
                 <div class="portfolio-item">
                   <div class="portfolio-img">
-                    <img src="assets/img/portfolio/audio-infos.jpg" alt="" />
+                    <img src="<?= $value->logo ?>" alt="" />
                     <div class="overlay">
-                      <a href="assets/img/portfolio/audio-infos.jpg" class="lightbox"><i class="more icon-plus"></i></a>
+                      <a href="<?= $value->logo ?>" class="lightbox"><i class="more icon-plus"></i></a>
                     </div>
                   </div>
                   <div class="portfolio-item-content">

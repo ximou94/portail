@@ -2,19 +2,18 @@
   <?php include_once '/Controllers/magazinesController.php' ?>
   <?php $issues = new  magazinesController();?>
 
-  <?php $pole = $_GET['pole']; $magazine = $_GET['position'] ?>
+  <?php $otherPole = $_GET['pole']; $otherMagazine = $_GET['position'] ?>
   <?php $link = $_GET['url'] ?>
-  <?php $issue = $issues->getMagazineInfos($pole,$magazine) ?>
+  <?php $issue = $issues->getMagazineInfos($otherPole,$otherMagazine) ?>
 
 <?php if ($link != $issue->url ) {
-header('location:http://edp-sante.fr/magazine/'.$pole.''.$magazine.'-'.$issue->url);
+header('location:http://edp-sante.fr/magazine/'.$otherPole.''.$otherMagazine.'-'.$issue->url);
 } ?>
   <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/header.phtml"; ?>
   <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/topBar.phtml"; ?>
   <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/nav.phtml"; ?>
   <?php $url =($_SERVER['REQUEST_URI']); ?>
 <?php $page = explode('?', $url); ?>
-    <!-- Start Content -->
     <div id="content">
       <div class="container">
         <div class="row">
@@ -40,7 +39,6 @@ header('location:http://edp-sante.fr/magazine/'.$pole.''.$magazine.'-'.$issue->u
               </div>
             </div>
             <!-- End Single Project Slider -->
-
             <!-- Start Project Content -->
             <div class="project-content col-md-4">
               <h3 class="widget-title"><?= $issue->name ?></h3>
@@ -71,7 +69,7 @@ header('location:http://edp-sante.fr/magazine/'.$pole.''.$magazine.'-'.$issue->u
             <!-- End Project Content -->
           </div>
           <!-- Start Portfolio Section -->
-          <?php $onePole =  $issues->getOnePole($pole) ?>
+          <?php $onePole =  $issues->getOnePole($otherPole) ?>
           <?php if(count($onePole->magazines) >= 2): ?>
 
             <div class="row">
@@ -85,7 +83,7 @@ header('location:http://edp-sante.fr/magazine/'.$pole.''.$magazine.'-'.$issue->u
                   <div id="projects-carousel" class="touch-carousel">
                     <?php foreach ($onePole as $key => $value):?>
                       <?php foreach ($value as $key1 => $mag):?>
-                        <?php if($key1 != $magazine){?>
+                        <?php if($key1 != $otherMagazine){?>
                       <div class="portfolio-item item">
                         <div class="portfolio-border">
                           <div class="portfolio-img">
@@ -95,7 +93,7 @@ header('location:http://edp-sante.fr/magazine/'.$pole.''.$magazine.'-'.$issue->u
                             </div>
                           </div>
                           <div class="portfolio-details">
-                            <a href="http://edp-sante.fr/magazine/<?=$pole?><?=$key1?>-<?= $mag->url?>">
+                            <a href="http://edp-sante.fr/magazine/<?=$otherPole?><?=$key1?>-<?= $mag->url?>">
                               <h4><?php echo $mag->name ?></h4>
                               <p>Website Drawing</p>
                             </a>

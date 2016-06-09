@@ -47,8 +47,8 @@ header('location:http://edp-sante.fr/magazine/'.$otherPole.''.$otherMagazine.'-'
                 <li><strong>Site internet : </strong> <a href="http://<?= $issue->website ?>" target="_blank"><?= $issue->website?></a></li>
               <?php if (isset($issue->abonnement)):?>
                 <li><strong>Abonnement : </strong><a href="http://<?= $issue->abonnement ?>" target="_blank"><?= $issue->abonnement ?></a></li>
-               <?php else :?>
-                <li><strong>Abonnement : </strong><a href="http://<?= $issue->flipbook?>" target="_blank"><?= $issue->flipbook?></a></li>
+              <?php elseif(isset($issue->flipbook)) :?>
+                <li><strong>Flipbook  : </strong><a href="http://<?= $issue->flipbook?>" target="_blank"><?= $issue->flipbook?></a></li>
               <?php endif ?>
               </ul>
               <?php if (!empty($issue->social)):?>
@@ -87,9 +87,9 @@ header('location:http://edp-sante.fr/magazine/'.$otherPole.''.$otherMagazine.'-'
                       <div class="portfolio-item item">
                         <div class="portfolio-border">
                           <div class="portfolio-img">
-                            <img alt="" src="/assets/img/projects/projects-01.jpg" />
+                            <img alt="" src="<?php echo $mag->logo ?>" />
                             <div class="overlay">
-                              <a href="/assets/img/projects/projects-01.jpg" class="lightbox"><i class="more fa fa-search"></i></a>
+                              <a href="<?php echo $mag->logo ?>" class="lightbox"><i class="more fa fa-search"></i></a>
                             </div>
                           </div>
                           <div class="portfolio-details">

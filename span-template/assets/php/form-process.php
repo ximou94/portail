@@ -32,7 +32,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "hello@graygrids.com";
+$EmailTo = "contact@edpsante.fr";
 $Subject = "New Message Received";
 
 // prepare email body text

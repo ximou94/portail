@@ -108,7 +108,7 @@ $page = explode('/', $url);
                       <ul class="sup-dropdown">
                         <?php foreach ($magazine as $key => $value): ?>
                         <li>
-                          <a href="single-project.php?pole=<?=$pole?>&position=<?=$key?>">
+                          <a href="http://edp-sante.fr/magazine/<?=$pole?><?=$key?>-<?= $title->url?>">
                             <?= $nav->getNavLevel1Name($i,$key)?>
                           </a>
                         </li>

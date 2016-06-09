@@ -80,7 +80,7 @@
                 <!-- Start Icons Lists -->
                 <div class="row">
                   <div class="col-md-6">
-                    <p>EDP Santé se divise en 5 pôles majeurs :</p>
+                    <p>EDP Santé se divise en 6 pôles majeurs :</p>
                     <ul class="icons-list">
                       <?php foreach ($sector as $key => $value):?>
                         <li><i class="fa fa-check-circle"></i><?= $nav->getNavLevel0Name($key)?></li>

@@ -104,9 +104,7 @@
                   </div>
                   <div class="info">
                     <h3>adresse mail</h3>
-                    <span class="detail">Customer
-                    Support: info@mail.com</span>
-                    <span class="datail">Technical Support: support@mail.com</span>
+                    <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;">&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;</a>
                   </div>
                 </div>
               </div>
@@ -135,16 +133,16 @@
     <!-- Google Maps JS Only for Contact Pages -->
     <script type="text/javascript">
     var map;
-    var plain = new google.maps.LatLng(48.812841, 2.326250);
-    var mapCoordinates = new google.maps.LatLng(48.812841, 2.326250);
+    var plain = new google.maps.LatLng(48.812799, 2.326252);
+    var mapCoordinates = new google.maps.LatLng(48.812799, 2.326252);
 
 
     var markers = [];
     var image = new google.maps.MarkerImage(
       'assets/img/map-marker.png',
-      new google.maps.Size(84, 70),
+      new google.maps.Size(64, 64),
       new google.maps.Point(0, 0),
-      new google.maps.Point(60, 60)
+      new google.maps.Point(32, 64)
     );
 
     function addMarker() {
@@ -165,9 +163,9 @@
         zoom: 15,
         disableDefaultUI: true,
         center: mapCoordinates,
-        zoomControl: false,
+        zoomControl: true,
         scaleControl: false,
-        scrollwheel: false,
+        scrollwheel: true,
         disableDoubleClickZoom: true,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: [{

@@ -1,5 +1,5 @@
   <?php include_once 'config.php' ?>
-  <?php include_once '/Controllers/magazinesController.php' ?>
+  <?php include_once ROOT.DS.'controllers/magazinesController.php' ?>
   <?php $issues = new  magazinesController();?>
 
   <?php $otherPole = $_GET['pole']; $otherMagazine = $_GET['position'] ?>
@@ -9,9 +9,9 @@
 <?php if ($link != $issue->url ) {
 header('location:http://edp-sante.fr/magazine/'.$otherPole.''.$otherMagazine.'-'.$issue->url);
 } ?>
-  <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/header.phtml"; ?>
-  <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/topBar.phtml"; ?>
-  <?php include_once "C:\wamp\www\Portail-EDP-Sante1\span-template\layouts/nav.phtml"; ?>
+  <?php include_once ROOT.DS."/layouts/header.phtml"; ?>
+  <?php include_once ROOT.DS."/layouts/topBar.phtml"; ?>
+  <?php include_once ROOT.DS."/layouts/nav.phtml"; ?>
   <?php $url =($_SERVER['REQUEST_URI']); ?>
 <?php $page = explode('?', $url); ?>
     <div id="content">
@@ -95,7 +95,9 @@ header('location:http://edp-sante.fr/magazine/'.$otherPole.''.$otherMagazine.'-'
                           <div class="portfolio-details">
                             <a href="http://edp-sante.fr/magazine/<?=$otherPole?><?=$key1?>-<?= $mag->url?>">
                               <h4><?php echo $mag->name ?></h4>
-                              <p>Website Drawing</p>
+                              <p>
+                                <?= $mag->baseline ?>
+                              </p>
                             </a>
                           </div>
                         </div>
@@ -136,12 +138,17 @@ header('location:http://edp-sante.fr/magazine/'.$otherPole.''.$otherMagazine.'-'
                 <div class="team-thumbnail">
                   <img src="<?= $value->photo ?>" alt="">
                   <div class="overlay">
-                    <div class="social-media">
+                    <div class="info">
+                      <h4>DARRELL S.ALLEN</h4>
+                      <h5>SOFTWARE ENGINNER</h5>
+                      <p>Lorem Ipsum is simply dummy to text of the printing and Lorem off typesetting industry, Lorems text Ipsum has been the industry's to standard dummy text.</p>
+                    </div>
+                  <!--  <div class="social-media">
                       <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                       <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                       <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
                       <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                    </div>
+                    </div>-->
                   </div>
                 </div>
                 <div class="info" itemscope itemtype="http://schema.org/Person">
@@ -149,13 +156,17 @@ header('location:http://edp-sante.fr/magazine/'.$otherPole.''.$otherMagazine.'-'
                   <h5><span itemprop="jobTitle"><?= $value->profession ?></span></h5>
                   <div style="margin-bottom:15px;margin-top:15px" class="hr5"></div>
                   <p>
+                      <?php if(!empty($value->phone)):?>
                     <i class="icon-call-out fa-2x">
                     </i>
-                    <span itemprop="telephone"><?= $value->phone ?></span>
+                    <?php endif; ?>
+                  <span itemprop="telephone"><?= $value->phone ?></span>
                   </p>
                       <p>
+                        <?php if(!empty($value->mail)): ?>
                     <i class="icon-envelope fa-2x">
                     </i>
+                  <?php endif; ?>
                   <span itemprop="email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;<?= $value->mail ?>"><?= $value->mail ?></a></span>
                   </p>
                 </div>

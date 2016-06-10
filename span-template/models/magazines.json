@@ -101,8 +101,8 @@
           {
             "name":"Audio infos France",
             "url":"audio-infos-france",
-            "baseline":"Site d'information 100% dédié à l'audiologie",
-            "text":"Audio Infos est le magazine de référence des audioprothésistes et de toute la filière. La revue reflète, depuis plus de 20 ans, l'actualité de la profession, ses problématiques et enjeux, ses perspectives et accompagne son évolution. Audio Infos traite, chaque mois, tous les thèmes qui font le quotidien de cette profession : actualités professionnelles et technologiques, reportages, interviews, portraits, dossiers thématiques, comptes rendus de manifestations, articles scientifiques, veille technologique, communication, gestion et management. Des sujets à la fois techniques et marketing qui permettent à Audio Infos de répondre aux besoins d'information d'une profession à la croisée entre médical, technique et commercial.",
+            "baseline":"Le magazine de référence des audioprothésistes",
+            "text":"Audio infos est le magazine de référence des audioprothésistes et de toute la filière. La revue reflète, depuis plus de 20 ans, l'actualité de la profession, ses problématiques et enjeux, ses perspectives et accompagne son évolution. Audio Infos traite, chaque mois, tous les thèmes qui font le quotidien de cette profession : actualités professionnelles et technologiques, reportages, interviews, portraits, dossiers thématiques, comptes rendus de manifestations, articles scientifiques, veille technologique, communication, gestion et management. Des sujets à la fois techniques et marketing qui permettent à Audio Infos de répondre aux besoins d'information d'une profession à la croisée entre médical, technique et commercial.",
             "link":"",
             "website":"www.edp-audio.fr",
             "logo":"/assets/img/portfolio/logo-audio-france.png",
@@ -535,7 +535,7 @@
               "name":"Emilie Cler",
               "profession":"Rédactrice en chef",
               "photo":"/assets/img/team/Emilie-Cler.jpg",
-              "mail":"&#101;&#109;&#105;&#108;&#105;&#101;&#46;&#99;&#108;&#101;&#114;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#1",
+              "mail":"&#101;&#109;&#105;&#108;&#105;&#101;&#46;&#99;&#108;&#101;&#114;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;",
               "phone":"&#43;&#51;&#51;&#32;&#40;&#48;&#41;&#54;&#32;&#55;&#48;&#32;&#49;&#54;&#32;&#55;&#53;&#32;&#54;&#48;"
             },
             {
@@ -555,25 +555,13 @@
           {
             "name":"Actualités Odonto Stomatologiques",
             "url":"actualites-odonto-stomatologiques",
-            "baseline":"",
-            "text":"AOS, l'encyclopédie du praticien. Une revue maintenue au niveau d'excellence qui la caractérise depuis ses débuts, il y a plus de 60 ans... Sa spécificité : réunir la stomatologie et l'odontologie, et son originalité : informer les stomatologistes sur l'odontologie et les odontologistes sur la stomatologie, la frontière séparant ces deux spécialités étant plus virtuelle que réelle, et les échanges d'informations indispensables.",
+            "baseline":"L'encyclopédie du practicien",
+            "text":"Une revue maintenue au niveau d'excellence qui la caractérise depuis ses débuts, il y a plus de 60 ans... Sa spécificité : réunir la stomatologie et l'odontologie, et son originalité : informer les stomatologistes sur l'odontologie et les odontologistes sur la stomatologie, la frontière séparant ces deux spécialités étant plus virtuelle que réelle, et les échanges d'informations indispensables.",
             "link":"",
             "logo":"/assets/img/portfolio/logo-actualites-odonto-stomatologiques.png",
             "website":"www.aos-journal.org",
             "abonnement":"www.fliphtml5.com/bookcase/mluo",
             "social":[
-              {
-                "name" : "twitter",
-                "url":""
-              },
-              {
-                "name":"facebook",
-                "url":""
-              },
-              {
-                "name":"youtube",
-                "url":"https://www.youtube.com/channel/UCNpL9UnwueXVZiwTrteDfww"
-              }
             ],
             "team":[
             {
@@ -602,7 +590,7 @@
           {
             "name":"Dentoscope",
             "url":"dentoscope",
-            "baseline":"l'actualité clinique et pratique des cabinets dentaires",
+            "baseline":"L'actualité clinique et pratique des cabinets dentaires",
             "text":"Dentoscope est la plus forte diffusion de la presse dentaire. Cas cliniques, actualités produits, tests produits, protocoles, agenda des événements et formations, petites annonces… Dentoscope est le magazine de toute l’actualité scientifique et pratique.",
             "link":"",
             "logo":"/assets/img/portfolio/logo-dentoscope.png",
@@ -645,7 +633,7 @@
             "name":"Indépendentaire",
             "url":"independentaire",
             "baseline":"Mieux manager son cabinet dentaire",
-            "text":"Mieux manager son cabinet dentaire. Parce que la compétence clinique ne suffit plus pour faire d’un cabinet dentaire un centre de profit pérenne, Indépendentaire propose depuis plus de 10 ans des solutions d’organisation, de gestion, de communication, de management, de stratégie et de développement personnel. Chaque mois dossiers, enquêtes et témoignages sont une source d’inspiration et d’information pour nos lecteurs. Indépendentaire se démarque de ses concurrents en abordant les thèmes relatifs au management du cabinet dentaire libéral.",
+            "text":"Parce que la compétence clinique ne suffit plus pour faire d’un cabinet dentaire un centre de profit pérenne, Indépendentaire propose depuis plus de 10 ans des solutions d’organisation, de gestion, de communication, de management, de stratégie et de développement personnel. Chaque mois dossiers, enquêtes et témoignages sont une source d’inspiration et d’information pour nos lecteurs. Indépendentaire se démarque de ses concurrents en abordant les thèmes relatifs au management du cabinet dentaire libéral.",
             "link":"",
             "logo":"/assets/img/portfolio/logo-independentaire.png",
             "website":"www.edp-dentaire.fr/independentaire",
@@ -687,7 +675,7 @@
             "name":"Orthophile",
             "url":"orthophile",
             "baseline":"Mieux manager son cabinet d'orthodontie",
-            "text":"Mieux manager son cabinet d'orthodontie. Depuis plus de 5 ans, Orthophile répond aux attentes de nombreux orthodontistes en traitant tous les thèmes qui font la réalité quotidienne de l’exercice libéral : communication, gestion, management, organisation. Par ses articles courts et concrets, sa mise en page claire permettant d’aller à l’essentiel, Orthophile apporte les solutions pour optimiser sa productivité, réduire son temps de travail et gagner en qualité de vie. Orthophile est le complément parfait aux revues scientifiques et cliniques.",
+            "text":"Depuis plus de 5 ans, Orthophile répond aux attentes de nombreux orthodontistes en traitant tous les thèmes qui font la réalité quotidienne de l’exercice libéral : communication, gestion, management, organisation. Par ses articles courts et concrets, sa mise en page claire permettant d’aller à l’essentiel, Orthophile apporte les solutions pour optimiser sa productivité, réduire son temps de travail et gagner en qualité de vie. Orthophile est le complément parfait aux revues scientifiques et cliniques.",
             "link":"",
             "logo":"/assets/img/portfolio/logo-orthophile.png",
             "website":"www.edp-dentaire.fr/orthophile",
@@ -820,6 +808,13 @@
             ],
             "team":[
             {
+              "name":"Ludivine Aubin-Karpinski",
+              "profession":"Rédactrice en chef",
+              "photo":"/assets/img/team/ludivine-aubin.jpg",
+              "mail":"&#108;&#117;&#100;&#105;&#118;&#105;&#110;&#101;&#46;&#97;&#117;&#98;&#105;&#110;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;",
+              "phone":""
+            },
+            {
               "name":"Violaine Colmet daâge",
               "profession":"Rédactrice en chef",
               "photo":"/assets/img/team/violaine-colmet-daage.jpg",
@@ -863,8 +858,8 @@
           {
             "name":"Profession Pharmacien",
             "url":"profession-pharmacien",
-            "baseline":"Découvrez ce que vous ne lirez pas ailleurs",
-            "text":"Profession pharmacien, le mensuel au cœur des axes de développement de l’officine et de la coopération interprofessionnelle. Réalisé pour et par des pharmaciens, Profession Pharmacien développe chaque mois un contenu éditorial en phase avec les nouvelles missions officinales : entretien pharmaceutique, prévention et dépistage, expériences de coopérations interprofessionnelles… L’accent est mis sur de nouveaux marchés comme l’orthopédie et les dispositifs médicaux avec des articles de formation et l’actualité des lancements de produits. Votre magazine s’attache aussi à nourrir votre réflexion avec un panorama de sujets d’actualités et des initiatives de tous les acteurs de la santé et de l’officine.",
+            "baseline":"Le mensuel au cœur des axes de développement de l’officine et de la coopération interprofessionnelle",
+            "text":"Réalisé pour et par des pharmaciens, Profession Pharmacien développe chaque mois un contenu éditorial en phase avec les nouvelles missions officinales : entretien pharmaceutique, prévention et dépistage, expériences de coopérations interprofessionnelles… L’accent est mis sur de nouveaux marchés comme l’orthopédie et les dispositifs médicaux avec des articles de formation et l’actualité des lancements de produits. Votre magazine s’attache aussi à nourrir votre réflexion avec un panorama de sujets d’actualités et des initiatives de tous les acteurs de la santé et de l’officine.",
             "link":"",
             "website":"www.profession-pharmacien.fr",
             "logo":"/assets/img/portfolio/logo-profession-pharmacien.png",
@@ -875,7 +870,7 @@
             {
               "name":"Juliette Schenckéry",
               "profession":"Rédactrice en chef",
-              "photo":"/assets/img/team/juliette-schenckéry.jpg",
+              "photo":"assets/img/team/juliette-schenckéry.jpg",
               "mail":"&#106;&#117;&#108;&#105;&#101;&#116;&#116;&#101;&#46;&#115;&#99;&#104;&#101;&#110;&#99;&#107;&#101;&#114;&#121;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;",
               "phone":"&#43;&#32;&#51;&#51;&#32;&#40;&#48;&#41;&#54;&#32;&#48;&#55;&#32;&#48;&#55;&#32;&#51;&#51;&#32;&#48;&#50;"
             },

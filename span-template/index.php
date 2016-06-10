@@ -92,7 +92,7 @@
                 <!-- Divider -->
                 <div class="hr1" style="margin-bottom:20px;"></div>
                 <!-- Button -->
-                <a href="about.php" class="btn btn-effect btn-small">Read More About Us</a>
+                <!--<a href="about.php" class="btn btn-effect btn-small">Read More About Us</a>-->
               </div>
               <!-- End Left Side -->
               <!-- Vimeo Iframe -->

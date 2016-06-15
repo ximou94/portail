@@ -13,10 +13,11 @@ public $_issues;
     $this->_json = file_get_contents(ROOT.DS."models".DS."magazines.json");
     $this->_issues = json_decode($this->_json);
   }
-public function getAll()
-{
-    var_dump($name = $this->_issues);
-}
+
+  public function getAll()
+  {
+      var_dump($name = $this->_issues);
+  }
   public function getName($number)
   {
     return $name = $this->_issues->{'poles'}[$number]->{'name'};
@@ -62,10 +63,12 @@ public function getAll()
   public function getMagazineInfos($pole,$magazine){
     return $name = $this->_issues->{'poles'}[$pole]->{'magazines'}[$magazine];
   }
+
   public function getOnePole($pole)
   {
     return $name = $this->_issues->{'poles'}[$pole];
   }
+
 
 }
  ?>

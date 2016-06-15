@@ -7,13 +7,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xl-6">
-            <h2>EDP Santé</h2>
+            <h2>Nos services</h2>
           </div>
           <div class="col-md-6 col-sm-6 col-xl-6">
             <div class="breadcrumbs">
               <a href="#">Home</a>
               <span class="crumbs-spacer"><i class="fa fa-angle-right"></i></span>
-              <span>About</span>
+              <span>Nos services</span>
             </div>
           </div>
         </div>
@@ -44,35 +44,12 @@
               <!-- Classic Heading -->
               <h4 class="classic-title">
                 <span>
-                Welcome To Our Agency
+                  Nos services
                 </span>
               </h4>
               <img class="m-left" src="assets/img/avatar.png" alt="">
               <p>
-                Depuis 2011, grâce à ses opérations de croissance externe, le Groupe EDP Sciences (maison
-
-d’édition scientifique internationale, créée en 1920) conforte sa position d’acteur
-
-incontournable du secteur scientifique et crée EDP Santé, sa filiale médicale. EDP Santé
-
-bénéficie du savoir-faire unique de ce groupe international, de ses avancées technologiques et
-
-peut ainsi apporter aux acteurs de la santé une réponse à leurs besoins de communication et
-
-d’information.
-              </p>
-              <p>
-                EDP Santé, prend une place de choix dans le paysage médical international en fournissant des
-
-  informations claires et actualisées ainsi que des outils pratiques et utiles. Son activité se
-
-  concentre sur la publication et la diffusion d’une vingtaine de magazines professionnels
-
-  diffusés sur 13 zones géographiques dans le monde, d’une trentaine de sites internet pour
-
-  promouvoir l’information médicale et sur la mise en place d’événements pour toujours plus de
-
-  proximité avec les professionnels de santé.
+              Forte d’une équipe de professionnels, tous experts dans leur domaine, éditeurs scientifiques, journalistes spécialisés, secrétaires de rédaction, maquettistes, graphistes, chefs de projet, webmasters, etc., EDP Santé propose de mettre à votre disposition son expertise en matière de communication éditoriale et de mutualiser ses prestations de production d’où des coûts attractifs.
               </p>
             </div>
           </div>
@@ -90,7 +67,7 @@ d’information.
               <!-- Classic Heading -->
               <h4 class="classic-title">
                 <span>
-                Our Solutions
+                  Nos solutions
                 </span>
               </h4>
               <!-- Accordion -->
@@ -105,18 +82,14 @@ d’information.
                       </i>
                       <i class="fa fa-desktop">
                       </i>
-                      Fully Responsive Theme
+                      Communication globale
                       </a>
                     </h4>
                   </div>
                   <!-- Toggle Content -->
                   <div id="collapse-1" class="panel-collapse collapse in">
                     <div class="panel-body">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                      <strong>
-                      printer
-                      </strong>
-                      took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                  Forte d’une équipe spécialisée dans le secteur de la santé, EDP Santé pourra vous conseiller sur la meilleure stratégie à adopter pour communiquer auprès de votre cible.  + texte que je mets en dessous
                     </div>
                   </div>
                 </div>
@@ -131,18 +104,25 @@ d’information.
                       </i>
                       <i class="fa fa-gift">
                       </i>
-                      Touchable Slider
+                      Communication print
                       </a>
                     </h4>
                   </div>
                   <!-- Toggle Content -->
                   <div id="collapse-2" class="panel-collapse collapse">
                     <div class="panel-body">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. The point of using Lorem Ipsum is that it has a
-                      <strong>
-                      more-or-less
-                      </strong>
-                      normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Travaux de rédaction, mise en page et solutions d’impression et de routage pour tout type de produits print :
+                    <ul>
+                      <li> Journaux d’entreprise</li>
+                      <li>     Annuaires</li>
+                      <li>     Brochures / Catalogues</li>
+                      <li>   Magazines et guides à destination des patients</li>
+                      <li>   Livres scientifiques, techniques et médicaux</li>
+                      <li>   Livres blancs<li/>
+                      <li>   Rapports d’activités</li>
+                      <li>   Fiches de formation</li>
+                      <li>   Document de promotion pour les commerciaux</li>
+                    </ul>
                     </div>
                   </div>
                 </div>
@@ -157,7 +137,7 @@ d’information.
                       </i>
                       <i class="fa fa-tint">
                       </i>
-                      Retina Ready
+                    Communication web
                       </a>
                     </h4>
                   </div>
@@ -198,13 +178,13 @@ d’information.
               <!-- Classic Heading -->
               <h4 class="classic-title">
                 <span>
-                Our Skills
+            NOTRE EXPERTISE
                 </span>
               </h4>
               <div class="skill-shortcode">
                 <div class="skill">
                   <p>
-                    Web Design 91%
+                  Contenu rédactionnel print et web
                   </p>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar"  data-percentage="91">
@@ -216,7 +196,7 @@ d’information.
                 </div>
                 <div class="skill">
                   <p>
-                    HTML/CSS 86%
+            Journaux d’entreprise
                   </p>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar"  data-percentage="86">
@@ -228,7 +208,7 @@ d’information.
                 </div>
                 <div class="skill">
                   <p>
-                    Graphic Design 78%
+              Conseil en communication santé
                   </p>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar"  data-percentage="78">
@@ -240,7 +220,7 @@ d’information.
                 </div>
                 <div class="skill">
                   <p>
-                    WordPress 65%
+                  Coordination éditoriale
                   </p>
                   <div class="progress">
                     <div class="progress-bar" role="progressbar"  data-percentage="65">
@@ -260,7 +240,7 @@ d’information.
       <div class="hr1" style="margin-bottom:50px;">
       </div>
       <!-- Start Counter Section -->
-      <div class="parallax" id="parallax-one" style="background-image:url(assets/img/parallax/bg-01.jpg);">
+      <!--<div class="parallax" id="parallax-one" style="background-image:url(assets/img/parallax/bg-01.jpg);">
         <div class="parallax-text-container-1">
           <div class="parallax-text-item">
             <div class="container">
@@ -329,109 +309,12 @@ d’information.
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
       <!-- End Counter Section -->
       <!-- Divider -->
       <div class="hr1" style="margin-bottom:50px;">
       </div>
-      <!-- Start Team Member Section -->
-      <div class="team">
-        <div class="container">
-          <div class="row">
-            <!-- Classic Heading -->
-            <h4 class="classic-title">
-              <span>
-              Our Creative Team
-              </span>
-            </h4>
-            <!-- Start Memebr 1 -->
-            <div class="col-md-3 col-sm-6">
-              <div class="tema-member">
-                <div class="team-thumbnail">
-                  <img src="assets/img/team/team-01.jpg" alt="">
-                  <div class="overlay">
-                    <div class="social-media">
-                      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                      <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-                      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="info">
-                  <h4>David Givens</h4>
-                  <p>Chief technical officer</p>
-                </div>
-              </div>
-            </div>
-            <!-- Start Memebr 2 -->
-            <div class="col-md-3 col-sm-6">
-              <div class="tema-member">
-                <div class="team-thumbnail">
-                  <img src="assets/img/team/team-02.jpg" alt="">
-                  <div class="overlay">
-                    <div class="social-media">
-                      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                      <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-                      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="info">
-                  <h4>Darrell S.Allen</h4>
-                  <p>Software Enginner</p>
-                </div>
-              </div>
-            </div>
-            <!-- Start Memebr 3 -->
-            <div class="col-md-3 col-sm-6">
-              <div class="tema-member">
-                <div class="team-thumbnail">
-                  <img src="assets/img/team/team-03.jpg" alt="">
-                  <div class="overlay">
-                    <div class="social-media">
-                      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                      <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-                      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="info">
-                  <h4>John Doe</h4>
-                  <p>Business manager</p>
-                </div>
-              </div>
-            </div>
-            <!-- Start Memebr 4 -->
-            <div class="col-md-3 col-sm-6">
-              <div class="tema-member">
-                <div class="team-thumbnail">
-                  <img src="assets/img/team/team-04.jpg" alt="">
-                  <div class="overlay">
-                    <div class="social-media">
-                      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                      <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-                      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="info">
-                  <h4>Justyna Michallek</h4>
-                  <p>Creative Director & Ceo</p>
-                </div>
-              </div>
-            </div>
-            <!-- End Memebr 4 -->
-          </div>
-        </div>
-      </div>
-      <!-- Start Team Member Section -->
-      <!-- Divider -->
-      <div class="hr1" style="margin-bottom:50px;">
-      </div>
+
       <!-- Start Client Section -->
       <div class="section-content">
         <div class="container">

@@ -63,7 +63,9 @@ $page = explode('/', $url);
                       </a>
                       <?php $magazine = $nav->getNavLevel1($i)?>
                       <ul class="sup-dropdown">
+
                         <?php foreach ($magazine as $key => $value): ?>
+                  <?php usort($magazine,function($a,$b) {return strnatcasecmp($a->name,$b->name);}); ?>
                         <?php $title = $nav->getMagazineInfos($pole,$key) ?>
                         <li>
                           <a href="http://edp-sante.fr/magazine/<?=$pole?><?=$key?>-<?= $title->url?>">
@@ -75,6 +77,11 @@ $page = explode('/', $url);
                     </li>
                     <?php $i++; endforeach ?>
                   </ul>
+                <li>
+                  <?= ($page[1] == "/about.php") ?  "<a href='/about.php' class='active'>" :  "<a href='/about.php'>";?>
+                  Nos services
+                  </a>
+                </li>
                 <li>
                   <?= ($page[1] == "/contact.php") ?  "<a href='/contact.php' class='active'>" :  "<a href='/contact.php'>";?>
                   Contact

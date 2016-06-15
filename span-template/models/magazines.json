@@ -46,6 +46,59 @@
             ]
           },
           {
+            "name":"Audioenportada",
+            "url":"audiodenportada",
+            "baseline":"La web para los profesionales de la salud auditiva",
+            "text":"Audioenportada est le site d’information pour les professionnels hispanophones de l’audition. Inauguré en 2014, ce portail porte une attention particulière à l’actualité du secteur en Espagne et en Amérique Latine, mais également à l’actualité du monde de l’audiologie, au travers de brèves rédigées en langue espagnole. Les sujets couverts par Audioenportada traitent aussi bien de la recherche et des manifestations que des innovations et stratégies des fabricants et des enseignes, en passant par l’optimisation des outils de gestion et marketing des professionnels et des contenus axés sur la sensibilisation.",
+            "link":"single-project.php",
+            "website":"www.http://audioenportada.com/",
+            "logo":"",
+            "abonnement":"",
+            "social":[
+              {
+                "name":"twitter",
+                "url":"https://twitter.com/Audioenportada"
+              },
+              {
+                "name":"linkedin",
+                "url":"https://www.linkedin.com/grps/Audioenportada-8186515/about"
+              },
+              {
+                "name":"youtube",
+                "url":"https://www.youtube.com/channel/UC-I6THHiyrWIuOfe7w-cmxQ"
+              }
+            ],
+            "team":[
+            {
+              "name":"Mara Brugés Polo",
+              "profession":"Rédactrice en chef",
+              "photo":"/assets/img/team/Mara-Polo.jpg",
+              "mail":"&#109;&#97;&#114;&#97;&#46;&#98;&#114;&#117;&#103;&#101;&#115;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#111;&#114;&#103;"
+            },
+            {
+              "name":"Andrea Livini",
+              "profession":"Chef de publicité",
+              "photo":"",
+              "mail":"&#97;&#110;&#100;&#114;&#101;&#97;&#46;&#108;&#105;&#118;&#105;&#110;&#105;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;",
+              "phone":"&#43;&#51;&#51;&#32;&#40;&#48;&#41;&#49;&#32;&#52;&#49;&#32;&#49;&#55;&#32;&#55;&#51;&#32;&#57;&#57;"
+            },
+            {
+              "name":"Judith Escales",
+              "profession":"Coordinatrice de l'édition",
+              "photo":"/assets/img/team/judith-escales.jpg",
+              "mail":"&#106;&#117;&#100;&#105;&#116;&#104;&#46;&#101;&#115;&#99;&#97;&#108;&#101;&#115;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;",
+              "phone":"&#43;&#51;&#51;&#32;&#40;&#48;&#41;&#49;&#32;&#52;&#49;&#32;&#49;&#55;&#32;&#55;&#52;&#32;&#48;"
+            },
+            {
+                "name":"Evi Moser",
+                "profession":"Coordinatrice des éditions internationales",
+                "photo":"/assets/img/team/Evi-Moser.jpg",
+                "mail":"&#101;&#118;&#105;&#46;&#109;&#111;&#115;&#101;&#114;&#64;&#101;&#100;&#112;&#115;&#97;&#110;&#116;&#101;&#46;&#102;&#114;",
+                "phone":"&#43;&#51;&#51;&#32;&#40;&#48;&#41;&#54;&#32;&#48;&#55;&#32;&#48;&#55;&#32;&#51;&#50;&#32;&#49;&#55;"
+            }
+          ]
+          },
+          {
             "name":"Audio infos América Latina",
             "url":"audio-infos-amerique-latine",
             "baseline":"La revista de los profesionales de la audición",

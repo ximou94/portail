@@ -127,6 +127,7 @@
                         <div id="portfolio-list">
             <?php foreach ($magazines as $key => $pole) {
               foreach ($pole as $number => $magazine) {
+                usort($magazine,function($a,$b) {return strnatcasecmp($a->name,$b->name);});
                 foreach ($magazine as $key2 => $value) :?>
 
               <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 mix design <?= $pole->name?>">
